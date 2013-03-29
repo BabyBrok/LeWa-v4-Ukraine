@@ -138,7 +138,7 @@
     <string name="meeting_settings_title">Нарада</string>
     <string name="outdoor_settings_title">Вулиця</string>
     <string name="apn_predefine_change_dialog_notice">Ви впевнені що хочете зберегти? Зміна налаштувань за замовчуванням може викликати проблеми з підключенням</string>
-    <string name="dialog_apn_disabled">APN відключена</string>
+    <string name="dialog_apn_disabled">APN вимкнено</string>
     <string name="dialog_apn_disabled_msg">Вимкніть режим У літаку, щоб включити параметри APN</string>
     <string name="sound_category_feedback_title">Система</string>
     <string name="sound_category_calls_title">Вхідні дзвінки</string>
@@ -313,11 +313,11 @@
     <string name="enable_schpwr">Включити</string>
     <string name="disable_schpwr">Відключити</string>
     <string name="day">1 день</string>
-    <string name="days">" %s днів"</string>
+    <string name="days">%s дн.</string>
     <string name="hour">1 год</string>
-    <string name="hours">\" %s годину\".</string>
+    <string name="hours">%s год.</string>
     <string name="minute">1 хв</string>
-    <string name="minutes">" %s хв."</string>
+    <string name="minutes">%s хв</string>
     <string name="every_day">кожен день</string>
     <string name="never">Ніколи</string>
     <string name="done">Готово</string>
@@ -432,7 +432,7 @@
     <string name="battery_info_status_unknown">Недоступно</string>
     <string name="battery_info_status_charging">Зарядка</string>
     <string name="battery_info_status_charging_ac">(Мережа змінного струму)</string>
-    <string name="battery_info_status_charging_usb">(Від USB)</string>
+    <string name="battery_info_status_charging_usb">(USB)</string>
     <string name="battery_info_status_discharging">Розрядка</string>
     <string name="battery_info_status_not_charging">Ні зарядки</string>
     <string name="battery_info_status_full">Заряджена повністю</string>
@@ -479,7 +479,7 @@
     <string name="bluetooth_disconnecting">Відключення......</string>
     <string name="bluetooth_connecting">Підключення...</string>
     <string name="bluetooth_unknown" />
-    <string name="bluetooth_pairing">Сполучення...</string>
+    <string name="bluetooth_pairing">Сполучення ...</string>
     <string name="bluetooth_device">Пристрій Bluetooth без назви</string>
     <string name="progress_scanning">Пошук</string>
     <string name="bluetooth_no_devices_found">Пристрої Bluetooth не виявлено</string>
@@ -531,7 +531,7 @@
     <string name="proxy_error_empty_port">В поле з адресою порту має бути введено значення</string>
     <string name="proxy_error_empty_host_set_port">Поле з адресою порту повинно бути залишено порожнім у разі, якщо поле вузла порожнє</string>
     <string name="proxy_error_invalid_port">Зазначений порт недійсний</string>
-    <string name="proxy_warning_limited_support">HTTP проксі використовується в оглядачі, але може не використовуватися іншими додатками</string>
+    <string name="proxy_warning_limited_support">Проксі-сервер HTTP використовується веб-переглядачем, але не може використовуватися ін. програмами</string>
     <string name="radio_info_signal_location_label">Місцезнаходження:</string>
     <string name="radio_info_neighboring_location_label">Найближчі CID:</string>
     <string name="radio_info_data_attempts_label">Спроби передачі даних:</string>
@@ -744,7 +744,7 @@
     <string name="bluetooth_pairing_accept">Сполучення</string>
     <string name="bluetooth_pairing_decline">Скасування</string>
     <string name="bluetooth_error_title" />
-    <string name="bluetooth_pairing_error_message">\" %1$s» не може бути парними</string>
+    <string name="bluetooth_pairing_error_message">Не можливосполучити “%1$s”.</string>
     <string name="bluetooth_pairing_pin_error_message">Не вдалося підключитися до пристрою \" %1$s\", так як введений невірний PIN-код або пароль</string>
     <string name="bluetooth_pairing_device_down_error_message">Не вдається встановити з\'єднання з пристроєм \" %1$s\"</string>
     <string name="bluetooth_pairing_rejected_error_message">Сполучення відхилено %1$s</string>
@@ -771,9 +771,9 @@
     <string name="bluetooth_profile_hid">Пристрій введення</string>
     <string name="bluetooth_profile_pan">Доступ в Інтернет</string>
     <string name="bluetooth_profile_pan_nap">Загальний доступ в Інтернет</string>
-    <string name="bluetooth_disconnect_a2dp_profile">%1$s буде від\'єднано від звуку з носія</string>
-    <string name="bluetooth_disconnect_headset_profile">%1$s буде від\'єднано від звуку гарнітури</string>
-    <string name="bluetooth_disconnect_hid_profile">%1$s буде від\'єднано від звуку з пристрою введення</string>
+    <string name="bluetooth_disconnect_a2dp_profile">%1$s буде відключено від аудіоджерела</string>
+    <string name="bluetooth_disconnect_headset_profile">Пристрій %1$s буде відключено від аудіо гарнітури</string>
+    <string name="bluetooth_disconnect_hid_profile">%1$s буде відключено від пристрою введення</string>
     <string name="bluetooth_disconnect_pan_user_profile">Доступ в Інтернет через %1$s буде відключено</string>
     <string name="bluetooth_disconnect_pan_nap_profile">Інтернет-підключення телефону перестане використовуватися пристроєм %1$s</string>
     <string name="bluetooth_device_advanced_title">Парний пристрій Bluetooth</string>
@@ -801,11 +801,11 @@
     <string name="bluetooth_dock_settings_remember">Запам\'ятати параметри</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">Дозволити обмін даними при суміщенні телефону з іншим пристроєм</string>
-    <string name="android_beam_settings_title">Android Промінь</string>
+    <string name="android_beam_settings_title">Android Beam</string>
     <string name="android_beam_on_summary">Готове до передачі контенту додатків через модуль NFC</string>
     <string name="android_beam_off_summary">Викл</string>
     <string name="android_beam_disabled_summary">Недоступно тому, що модуль NFC вимкнений</string>
-    <string name="android_beam_label">Android Промінь</string>
+    <string name="android_beam_label">Android Beam</string>
     <string name="android_beam_explained">\"Коли ця функція увімкнена, користувач може направити контент програми на інше, оснащене модулем NFC, пристрій, тримаючи пристрої поруч разом. Наприклад, можна передавати сторінки оглядача, відео YouTube, контакти людей і т.п.
 
 Треба всього лише піднести у?% (* Переклад не завершений *)</string>
@@ -873,7 +873,7 @@
     <string name="wifi_show_password">Показати пароль</string>
     <string name="wifi_ip_settings">Налаштування IP</string>
     <string name="wifi_unchanged">(Не змінено)</string>
-    <string name="wifi_unspecified">(Не задано)</string>
+    <string name="wifi_unspecified">(не вказано)</string>
     <string name="wifi_remembered">Збережено</string>
     <string name="wifi_disabled_generic">Відключено</string>
     <string name="wifi_disabled_network_failure">Нестійке підключення до Інтернету не використовувалося</string>
@@ -932,7 +932,7 @@
     <string name="sound_settings">Звук</string>
     <string name="ringtone_title">Рінгтон</string>
     <string name="ringtone_summary" />
-    <string name="all_volume_title">Обсяг</string>
+    <string name="all_volume_title">Гучність</string>
     <string name="musicfx_title">Музичні ефекти</string>
     <string name="ring_volume_title">Гучність дзвінка</string>
     <string name="vibrate_in_silent_title">Вібро в тихому режимі</string>
@@ -1023,7 +1023,7 @@
     <string name="device_info_settings">Стан телефону</string>
     <string name="system_update_settings_list_item_title">Оновлення системи</string>
     <string name="system_update_settings_list_item_summary" />
-    <string name="firmware_version">Andrews версії:</string>
+    <string name="firmware_version">"Andrews версії: "</string>
     <string name="model_number">"Модель"</string>
     <string name="baseband_version">Версія ПО модуля зв\'язку</string>
     <string name="kernel_version">Версія ядра</string>
@@ -1075,7 +1075,7 @@
     <string name="dlg_confirm_unmount_title">Відключити SD-карту</string>
     <string name="dlg_confirm_unmount_text">Якщо відключити SD-карту, деякі додатки перестануть працювати і можуть залишатися недоступними до її підключення</string>
     <string name="dlg_error_unmount_title" />
-    <string name="dlg_error_unmount_text">SD-карта не може бути вилучена, будь ласка, повторіть спробу пізніше</string>
+    <string name="dlg_error_unmount_text">SD-карта не може бути вилучена, будь ласка, повторіть спробу пізніше.</string>
     <string name="unmount_inform_text">SD-карта буде відключена</string>
     <string name="sd_ejecting_title">Відключення</string>
     <string name="sd_ejecting_summary">Відключення</string>
@@ -1123,7 +1123,7 @@
     <string name="menu_save">Зберегти</string>
     <string name="menu_cancel">Скасувати</string>
     <string name="error_title" />
-    <string name="error_name_empty">Поле \"Ім\'я\" не може бути порожнім</string>
+    <string name="error_name_empty">Поле \"Ім\'я\" не може бути порожнім.</string>
     <string name="error_apn_empty">Необхідно вказати APN</string>
     <string name="error_mcc_not3">Поле MCC має містити 3 цифри</string>
     <string name="error_mnc_not23">Поле MNC має містити 2 або 3 цифри</string>
@@ -1132,12 +1132,17 @@
     <string name="restore_default_apn_completed">Скидання з відновленням стандартним параметрам APN виконаний</string>
     <string name="master_clear_title">Скидання з відновленням заводських налаштувань</string>
     <string name="master_clear_summary">Повернення до заводських налаштувань і видалення всіх даних з пам\'яті телефону</string>
-    <string name="master_clear_desc">\"Будуть видалені всі відомості з\" \"<b> внутрішнього сховища </ B&gt;\" пристрою, в тому числі: \"<li> ваш обліковий запис Google; </ li&gt;\" \"<li> всі дані і настройки (системи і додатків) </ li&gt;\" \". <li> завантажені програми </ li&gt;\" \"\" </string>
+    <string name="master_clear_desc">Будуть видалені всі відомості з <b> внутрішнього сховища </b> пристрою, в тому числі:
+\"<li> ваш обліковий запис Google </li>\"
+\"<li> всі дані і настройки (системи і додатків) </li>\"
+\"<li> завантажені програми </li>\"\" </string>
     <string name="master_clear_accounts">"
 
 В даний час ви виконали вхід в наступні акаунти:
 "</string>
-    <string name="master_clear_desc_also_erases_external">\"\" <li> Музика </ li&gt; \"\" <li> Фото </ li&gt; \"\" <li> Інші дані користувача </ li&gt;</string>
+    <string name="master_clear_desc_also_erases_external">\"\" <li> Музика </ li&gt; \"
+\" <li> Фото </ li&gt; \"
+\" <li> Інші дані користувача </ li&gt;</string>
     <string name="master_clear_desc_erase_external_storage">\"
 
 Щоб видалити музику, фотографії та інші дані користувачів, необхідно очистити \"\" <b> SD-карту </ B&gt; \"\".\" </string>
@@ -1152,7 +1157,7 @@
     <string name="master_clear_confirm_title">Виконати розвантаження</string>
     <string name="media_format_title">Очистити SD-карту</string>
     <string name="media_format_summary">Видалення всіх даних з SD-карти</string>
-    <string name="media_format_desc">\"Очистити SD-карту? Ви втратите\", \"<b> всі </ B&gt;\" \"дані на ній\".</string>
+    <string name="media_format_desc">\"Очистити SD-карту? Ви втратите\", \"<b> всі </b>\" \"дані на ній\".</string>
     <string name="media_format_button_text">Очистити SD-карту</string>
     <string name="media_format_final_desc">Видалити з SD-карти всі файли без можливості відновлення</string>
     <string name="media_format_final_button_text">Видалити всі</string>
@@ -1179,7 +1184,7 @@
     <string name="bluetooth_tethering_off_subtext">Вимкнений</string>
     <string name="bluetooth_tethering_errored_subtext">Немає загального доступу в Інтернет</string>
     <string name="bluetooth_tethering_overflow_error">Макс. число підключаються:% 1 $ г</string>
-    <string name="bluetooth_untether_blank">%1$s буде від\'єднано від загальної Інтернету</string>
+    <string name="bluetooth_untether_blank">"Прив'язку %1$s буде скасовано."</string>
     <string name="tethering_help_button_text">Довідка</string>
     <string name="network_settings_title">Мобільна мережа</string>
     <string name="location_title">Моє місце розташування</string>
@@ -1299,7 +1304,11 @@
     <string name="reset_app_preferences_title">Скинути налаштування</string>
     <string name="reset_app_preferences_desc">\"Будуть скинуті наступні настройки:
 
- \"\" <li> Список відключених додатків; </ li&gt; \"\" <li> повідомлення для відключених додатків; </ li&gt; \"\" <li> список додатків за умовчанням; </ li&gt; \"\" <li> обмеження на передачу даних у фоновому режимі. </ li&gt; \"Дані додатків видалені не будуть</string>
+\"<li> Список відключених додатків </li>\"
+\"<li> повідомлення для відключених додатків </li>\"
+\"<li> список додатків за умовчанням </li>\"
+\"<li> обмеження на передачу даних у фоновому режимі </li>\"
+Дані додатків видалені не будуть\" </string>
     <string name="reset_app_preferences_button">Так</string>
     <string name="manage_space_text">Управління простором</string>
     <string name="filter">Фільтр</string>
@@ -1318,7 +1327,7 @@
     <string name="dlg_ok">Гаразд</string>
     <string name="dlg_cancel">Скасування</string>
     <string name="app_not_found_dlg_title" />
-    <string name="app_not_found_dlg_text">Додаток не знайдено в списку встановлених</string>
+    <string name="app_not_found_dlg_text">Додаток не знайдено в списку встановлених додатків.</string>
     <string name="clear_data_failed">Дані не видалені</string>
     <string name="app_factory_reset_dlg_title">Видалити поновлення</string>
     <string name="app_factory_reset_dlg_text">Всі оновлення для даного застосування системи Android будуть видалені</string>
@@ -1362,12 +1371,12 @@
     <string name="no_running_services">Ні запущених служб</string>
     <string name="service_started_by_app">Запущено додатком</string>
     <string name="service_background_processes">%1$s вільно</string>
-    <string name="service_foreground_processes">%1$s использ</string>
+    <string name="service_foreground_processes">Використано：%1$s</string>
     <string name="memory">ОЗУ</string>
-    <string name="running_processes_item_description_s_s">% 1 $ д процес і% 2 $ D служба</string>
-    <string name="running_processes_item_description_s_p">% 1 $ д процес і% 2 $ D служба</string>
-    <string name="running_processes_item_description_p_s">% 1 $ д процес і% 2 $ D служба</string>
-    <string name="running_processes_item_description_p_p">% 1 $ д процес і% 2 $ D служба</string>
+    <string name="running_processes_item_description_s_s">%1$d процеси %2$d служби</string>
+    <string name="running_processes_item_description_s_p">%1$d процеси %2$d служби</string>
+    <string name="running_processes_item_description_p_s">%1$d процеси %2$d служби</string>
+    <string name="running_processes_item_description_p_p">%1$d процеси %2$d служби</string>
     <string name="runningservicedetails_settings_title">Запущене застосування</string>
     <string name="no_services">Немає активних</string>
     <string name="runningservicedetails_services_title">Служби</string>
@@ -1398,7 +1407,7 @@
     <string name="auto_punctuate_summary">Подвійне натискання пробілу для вставки \".\"</string>
     <string name="show_password">Показати пароль</string>
     <string name="show_password_summary" />
-    <string name="ime_security_warning">Цей метод введення може бути, щоб зібрати всі введеного тексту, включаючи паролі і номери кредитних карт і інші особисті дані. Він поставляється з додатком \" %1$s\" . Щоб використовувати цей метод введення</string>
+    <string name="ime_security_warning">Цей метод введення може бути, щоб зібрати всі введеного тексту, включаючи паролі і номери кредитних карт і інші особисті дані. Він поставляється з додатком \"%1$s\". Щоб використовувати цей метод введення?</string>
     <string name="spellchecker_security_warning">Ця перевірка орфографії дозволяє збирати весь текст, що вводиться, включаючи особисті дані, такі як паролі і номери кредитних карт. Ініційована додатком %1$s. Використовувати цю перевірку орфографії</string>
     <string name="spellchecker_quick_settings">ВСТАНОВИТИ</string>
     <string name="spellchecker_language">Мова</string>
@@ -1486,10 +1495,10 @@
     <string name="allow_bind_app_widget_activity_allow_bind_title">Створити віджет і дозволити доступ</string>
     <string name="allow_bind_app_widget_activity_allow_bind">Коли ви створюєте віджет, додаток \" %1$s\" отримує доступ до всіх його даними</string>
     <string name="allow_bind_app_widget_activity_always_allow_bind">Завжди дозволяти додатком \" %1$s\" створювати віджети і отримувати їх дані</string>
-    <string name="battery_history_days">% 1 $ Dд% 2 $ Dч% 3 $ dм% 4 $ DС</string>
-    <string name="battery_history_hours">% 1 $ Dч% 2 $ dм% 3 $ DС</string>
-    <string name="battery_history_minutes">% 1 $ dм% 2 $ DС</string>
-    <string name="battery_history_seconds">% 1 $ DС</string>
+    <string name="battery_history_days">%1$dдн. %2$dгод. %3$dхв. %4$dсек</string>
+    <string name="battery_history_hours">%1$dгод. %2$dхв. %3$dс</string>
+    <string name="battery_history_minutes">%1$dхв. %2$dс</string>
+    <string name="battery_history_seconds">%1$dсек</string>
     <string name="usage_stats_label">Статистика використання</string>
     <string name="testing_usage_stats">Статистика використання</string>
     <string name="display_order_text">Сортувати по:</string>
@@ -1539,7 +1548,7 @@
     <string name="awake">Час пробудження пристрої</string>
     <string name="wifi_on_time">Час роботи Wi-Fi</string>
     <string name="bluetooth_on_time">Час роботи Wi-Fi</string>
-    <string name="usage_name_percent">" %1$s - %2$s%%"</string>
+    <string name="usage_name_percent">%1$s - %2$s%%</string>
     <string name="history_details_title">Докладна історія</string>
     <string name="details_title">Подробиці про використання</string>
     <string name="details_subtitle">Подробиці про використання</string>
@@ -1651,7 +1660,7 @@
     <string name="credentials_install_gesture_prompt">Намалюйте фігуру для розблокування</string>
     <string name="credentials_install_gesture_explanation">Щоб підтвердити установку облікових даних, накресліть графічний ключ</string>
     <string name="credentials_unlock" />
-    <string name="credentials_unlock_hint">Введіть пароль облікові дані зберігаються</string>
+    <string name="credentials_unlock_hint">Введіть пароль для збереження обліковий даних .</string>
     <string name="credentials_old_password">Діючий пароль:</string>
     <string name="credentials_reset_hint">Видалити вміст</string>
     <string name="credentials_password_too_short">У паролі повинно бути не менше 8 символів</string>
@@ -1681,7 +1690,7 @@
     <string name="local_backup_password_toast_confirmation_mismatch">Паролі не збігаються</string>
     <string name="local_backup_password_toast_validation_failure">Не вдалося встановити резервний пароль</string>
     <string name="backup_erase_dialog_title" />
-    <string name="backup_erase_dialog_message">Щоб зупинити резервну копію вашого WLAN паролів, закладки та інші налаштування та дані додатків, а також видалити всі копії з серверів Google</string>
+    <string name="backup_erase_dialog_message">Щоб припинити резервне копіювання ваших WLAN паролів, закладки та інші налаштування та дані додатків, а також видалити всі копії з серверів Google?</string>
     <string name="device_admin_settings_title">Параметри адміністратора пристрою</string>
     <string name="active_device_admin_msg">Адміністратори пристрої</string>
     <string name="remove_device_admin">Деактивувати</string>
@@ -1752,7 +1761,7 @@
     <string name="sync_gmail">Гугл пошта</string>
     <string name="sync_calendar">Календар</string>
     <string name="sync_contacts">Контакти</string>
-    <string name="sync_plug"><font fgcolor="#ffffffff">\"\" <font Fgcolor="#ffffffff"> Ласкаво просимо в Google Sync! </ FONT&gt; \"
+    <string name="sync_plug"><font fgcolor="#ffffffff"><font fgcolor="#ffffffff">\"\" <font Fgcolor="#ffffffff"> Ласкаво просимо в Google Sync! </ FONT&gt; \"
 Служба Google для синхронізації даних дозволяє отримувати доступ до своїх контактів, зустрічей і т.п. з будь-якого місця.\" </string>
     <string name="header_application_sync_settings">Параметри синхронізації додатки</string>
     <string name="header_data_and_synchronization">Дані та синхронізація</string>
@@ -1775,7 +1784,7 @@
     <string name="delete">Видалити</string>
     <string name="misc_files">Різні файли</string>
     <string name="misc_files_selected_count">вибрано% 1 $ г з% 2 $ г</string>
-    <string name="misc_files_selected_count_bytes">" %1$s з %2$s"</string>
+    <string name="misc_files_selected_count_bytes">%1$s з %2$s</string>
     <string name="select_all">Вибрати всі</string>
     <string name="hdcp_checking_title">Перевірка HDCP</string>
     <string name="hdcp_checking_dialog_title">Налаштувати перевірку HDCP</string>
@@ -1882,9 +1891,9 @@
 Щоб уникнути додаткових витрат намагайтеся не досягати цього ліміту, так як оператор і ваш пристрій можуть по-різному враховувати трафік \".</string>
     <string name="data_usage_restrict_background_title">Обмежити фоновий трафік</string>
     <string name="data_usage_restrict_background">Якщо обмежити передачу даних у фоновому режимі по мобільній мережі, деякі програми та служби не будуть працювати без підключення до мережі Wi-Fi</string>
-    <string name="data_usage_sweep_warning"><font size="21"><font size="21"> ^ 1 </ FONT&gt; <font size="9"> ^ 2 </ FONT&gt; \"
+    <string name="data_usage_sweep_warning"><font size="21"><font size="21"><font size="21"> ^ 1 </ FONT&gt; <font size="9"> ^ 2 </ FONT&gt; \"
 \"<font Size="12"> Увага </ FONT&gt;</string>
-    <string name="data_usage_sweep_limit"><font size="21"><font size="21"> ^ 1 </ FONT&gt; <font size="9"> ^ 2 </ FONT&gt; \"
+    <string name="data_usage_sweep_limit"><font size="21"><font size="21"><font size="21"> ^ 1 </ FONT&gt; <font size="9"> ^ 2 </ FONT&gt; \"
 \"<font Size="12"> Ліміт </ FONT&gt;</string>
     <string name="data_usage_uninstalled_apps">Віддалені програми</string>
     <string name="data_usage_received_sent">Отримано: %1$s; відправлено: %2$s</string>
@@ -1909,7 +1918,7 @@
     <string name="vpn_ipsec_server_cert">Сертифікат сервера IPSec</string>
     <string name="vpn_show_options">Показати додаткові параметри</string>
     <string name="vpn_search_domains">Пошукові домени DNS</string>
-    <string name="vpn_dns_servers">DNS-сервера (наприклад, 8.8.8.8)</string>
+    <string name="vpn_dns_servers">DNS-сервери (напр., 8.8.8.8)</string>
     <string name="vpn_routes">Маршрути перенап. (Наприклад, 10.0.0.0 / 8)</string>
     <string name="vpn_username">Ім\'я користувача</string>
     <string name="vpn_password">Паролі</string>
@@ -2028,7 +2037,7 @@
     <string name="clean_btn_confirm_summary">Гаразд</string>
     <string name="clean_btn_complete_summary">Готово</string>
     <string name="clean_empty_folder_summary">Папок знайдено:</string>
-    <string name="clean_storage_available_size">% З вільного простору</string>
+    <string name="clean_storage_available_size">%s вільного простору</string>
     <string name="clean_list_top_not_clean_summary">Файли не очищені</string>
     <string name="clean_data_cleaning_summary">Очищаємо...</string>
     <string name="clean_btn_cleanup_part_summary">Очистити</string>
@@ -2036,7 +2045,7 @@
     <string name="clean_picture_thumbnail_summary">Превью картинок:</string>
     <string name="clean_log_summary">Журнал:</string>
     <string name="clean_system_cache_file">Системний кеш:</string>
-    <string name="clean_calculate_complete_result">%1$s вільного простору після очищення очікується %2$s</string>
+    <string name="clean_calculate_complete_result">%1$s вільного простору після очищення %2$s</string>
     <string name="storage_install_app_sdcard_summary">(Деякі додатки не підтримуються)</string>
     <string name="notify_dialog_message">Потрібне перезавантаження, щоб зміни вступили в силу. Перезавантажити зараз</string>
     <string name="sim_setting_guide_continue">Продовжити</string>
@@ -2089,12 +2098,12 @@
     <string name="proximity_calib_failed">Збій виконання операції</string>
     <string name="sync_settings">Акаунти та синхронізація</string>
     <string name="silent_mode_title">Тихий режим</string>
-    <string name="device_lewa_version">"Версія ПО Льова:"</string>
+    <string name="device_lewa_version">"Версія ОC LeWa:"</string>
     <string name="device_cpu">"CPU"</string>
     <string name="device_memory">"Пам'ять"</string>
     <string name="device_system_memory">"Системна пам'ять"</string>
     <string name="internal_memory_available">"Внутрішня пам'ять:"</string>
-    <string name="sdcard_available">"SD карта"</string>
+    <string name="sdcard_available">Ємність карти SD:</string>
     <string name="system_tutorial_list_item_title">Підручник по системі</string>
     <string name="system_tutorial_list_item_summary">Дізнайтеся, як користуватися телефоном</string>
     <string name="root_title">Менеджер безопастности</string>

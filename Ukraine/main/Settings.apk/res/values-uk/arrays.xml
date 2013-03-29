@@ -236,15 +236,15 @@
         <item>Не більше 4 процесів</item>
     </string-array>
     <string-array name="vpn_types_long">
-        <item>VPN-з\'єднання по протоколу PPTP</item>
-        <item>VPN-з\'єднання по протоколу L2TP/IPSec із загальними ключами</item>
-        <item>VPN-підключення за протоколом L2TP/IPSec з використанням сертифікатів</item>
-        <item>VPN-підключення IPSec із загальними ключами і аутентифікацією Xauth</item>
-        <item>VPN-підключення IPSec з використанням сертифікатів і аутентифікації Xauth</item>
-        <item>VPN-підключення IPSec з використанням сертифікатів та комбінованої аутентифікації</item>
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN зі спільними ключами</item>
+        <item>L2TP/IPSec VPN із сертифікатами</item>
+        <item>IPSec VPN зі спільними ключами й автентифікацією Xauth</item>
+        <item>IPSec VPN із сертифікатами та автентифікацією Xauth</item>
+        <item>IPSec VPN із сертифікатами та гібридною автентифікацією</item>
     </string-array>
     <string-array name="vpn_states">
-        <item>Відключена</item>
+        <item>Від\'єднано</item>
         <item>Ініціалізація...</item>
         <item>Підключення...</item>
         <item>Підключено</item>
@@ -270,9 +270,9 @@
         <item>Ніколи</item>
     </string-array>
     <string-array name="gsm_umts_network_preferences_choices">
-        <item>GSM / WCDMA (авторежим)</item>
-        <item>Тільки для WCDMA</item>
-        <item>Тільки GSM</item>
+        <item>GSM/WCDMA (автом. режим)</item>
+        <item>Лише WCDMA</item>
+        <item>Лише GSM</item>
     </string-array>
     <array name="wifi_security_wfa">
         <item>@string/wifi_security_none</item>
@@ -354,14 +354,14 @@
     </string-array>
     <string-array name="wifi_network_setup">
         <item>Викл</item>
-        <item>Push-кнопка</item>
+        <item>Кнопка Push</item>
         <item>PIN-код отриманий від точки доступу</item>
         <item>PIN-код цього пристрою</item>
     </string-array>
     <string-array name="epo_update_period_title">
         <item>10 хвилин</item>
-        <item>1:00</item>
-        <item>6:00</item>
+        <item>1 годину</item>
+        <item>6 годин</item>
         <item>1 день</item>
         <item>3 дні</item>
         <item>7 днів</item>
@@ -450,30 +450,30 @@
     </string-array>
     <string-array name="notify_duration_list_entries">
         <item>0 с</item>
-        <item>1 з</item>
-        <item>2 з</item>
-        <item>3 із</item>
-        <item>4 із</item>
-        <item>5 із</item>
-        <item>6 з</item>
-        <item>7 з</item>
-        <item>8 з</item>
+        <item>1 c</item>
+        <item>2 c</item>
+        <item>3 c</item>
+        <item>4 c</item>
+        <item>5 c</item>
+        <item>6 c</item>
+        <item>7 c</item>
+        <item>8 c</item>
     </string-array>
     <string-array name="verify_duration_list_entries">
         <item>0 с</item>
-        <item>1 з</item>
-        <item>2 з</item>
-        <item>3 із</item>
-        <item>4 із</item>
-        <item>5 із</item>
-        <item>6 з</item>
-        <item>7 з</item>
-        <item>8 з</item>
+        <item>1 c</item>
+        <item>2 c</item>
+        <item>3 c</item>
+        <item>4 c</item>
+        <item>5 c</item>
+        <item>6 c</item>
+        <item>7 c</item>
+        <item>8 c</item>
     </string-array>
     <string-array name="wifi_connect_type_entries">
-        <item>Автопідключення</item>
+        <item>Автоматичне з\'єднання</item>
         <item>Підключитися вручну</item>
-        <item>Завжди питати</item>
+        <item>Завжди запитувати</item>
     </string-array>
     <string-array name="silent_mode_entries">
         <item>Викл</item>

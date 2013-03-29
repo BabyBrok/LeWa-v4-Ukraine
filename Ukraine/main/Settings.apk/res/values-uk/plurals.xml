@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="lockpassword_password_requires_letters">
-        <item quantity="other">Пароль повинен містити не менше %d букв</item>
+        <item quantity="other">Пароль повинен містити не менше %d літер</item>
         <item quantity="one">Пароль повинен містити не менше однієї літери</item>
     </plurals>
     <plurals name="lockpassword_password_requires_lowercase">

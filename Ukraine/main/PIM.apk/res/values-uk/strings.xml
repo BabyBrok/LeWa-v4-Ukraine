@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="config_import_vcard_type">За замовчуванням</string>
-    <string name="config_export_vcard_type">За замовчуванням</string>
-    <string name="config_export_dir">/mnt/sdcard</string>
-    <string name="config_export_file_prefix" />
-    <string name="config_export_file_suffix" />
-    <string name="config_export_file_extension">vcf</string>
-    <string name="config_export_extensions_to_consider" />
-    <string name="config_prohibited_phone_number_regexp" />
     <string name="launcherDialer">Телефон</string>
     <string name="people">Контакти</string>
-    <string name="t9_default_sort">1</string>
     <string name="t9_sort_title">T9 сортування</string>
     <string name="t9_sort_summary">Виберіть режим сортування результатів T9</string>
     <string name="t9_sort_name">Спочатку збіг імен</string>
@@ -19,15 +10,6 @@
     <string name="t9_state_summary">Включити T9 ​​пошук в номеронабирачів</string>
     <string name="t9_dial_click_title">Зателефонувати вибраному контакту</string>
     <string name="t9_dial_click_summary">Зателефонувати вибраного за допомогою Т9 контакту</string>
-    <string name="t9_add_to_contacts">Додати в контакти</string>
-    <string name="t9_map_row_2">2abcàáâäåɑæçǽćčáабвг</string>
-    <string name="t9_map_row_3">3deféèêëдежз</string>
-    <string name="t9_map_row_4">4ghiíìïîǵійкл</string>
-    <string name="t9_map_row_5">5jklḱḱĺмноп</string>
-    <string name="t9_map_row_6">6mnoòóöôøñŋǿḿńőрсту</string>
-    <string name="t9_map_row_7">7pqrsßɾṕŕśřšфхцч</string>
-    <string name="t9_map_row_8">8tuvúùüûűшщ\'и</string>
-    <string name="t9_map_row_9">9wxyzýẃźьеюя</string>
     <string name="contactsList">Контакти</string>
     <string name="shortcutContact">Контакт</string>
     <string name="shortcutDialContact">Швидкий дзвінок</string>
@@ -394,7 +376,6 @@
     <string name="recent">Останні</string>
     <string name="recent_updates">Останні оновлення</string>
     <string name="account_type_format">Контакт %1$s</string>
-    <string name="from_account_format">з %1$s</string>
     <string name="use_photo_as_primary">Використовувати цю фотографію</string>
     <string name="contact_read_only">Неможливо змінити контактну інформацію %1$s на цьому пристрої.</string>
     <string name="no_contact_details">Відсутня додаткова інформація про це контакті.</string>
@@ -574,7 +555,6 @@
     <string name="call_ip_dial">Набір IP-адреси</string>
     <string name="call_speed_dial">Швидкий набір</string>
     <string name="call_video_call">Відеодзвінок</string>
-    <string name="emergency_number">Номер екстреної служби</string>
     <string name="menu_speed_dial">Швидкий набір</string>
     <string name="speed_dial_manage">Швидкий набір</string>
     <string name="add_speed_dial">Натисніть для додавання в швидкий набір</string>
@@ -887,9 +867,6 @@
     <string name="pref_summary_notification_vibrateWhen">Вібросигнал при одержанні повідомлення</string>
     <string name="pref_title_notification_ringtone">Звук повідомлення</string>
     <string name="pref_messages_to_save">Встановити макс. кількість повідомлень в ланцюжку для зберігання</string>
-    <string name="prefDefault_vibrateWhen">Ніколи</string>
-    <string name="prefDefault_vibrate_true">завжди</string>
-    <string name="prefDefault_vibrate_false">ніколи</string>
     <string name="prefDialogTitle_vibrateWhen">Вібросигнал</string>
     <string name="pref_title_mms_auto_retrieval">Автозавантаження</string>
     <string name="pref_summary_mms_auto_retrieval">Автоматично завантажувати MMS-повідомлення</string>
@@ -1022,8 +999,6 @@
     <string name="message_count_format">%1$s</string>
     <string name="error_state">Помилкове стан</string>
     <string name="error_state_text">Ланцюжки не відповідають одержувачам. Зробіть знімок екрану і відправте повідомлення про помилку через веб-сайт http://go/droidanizer</string>
-    <string name="label_mms_push">MMS Push</string>
-    <string name="desc_mms_push">Pushes MMS from outbox to the network</string>
     <string name="cell_broadcast">Інформаційні повідомлення</string>
     <string name="cell_broadcast_title">Налаштування інформаційних повідомлень</string>
     <string name="cell_broadcast_settings">Налаштування естафетної розсилки повідомлень SIM-карти</string>
@@ -1046,7 +1021,6 @@
     <string name="OK">Гаразд</string>
     <string name="Cancel">Скасувати</string>
     <string name="sms_save_location">Місце зберігання SMS</string>
-    <string name="gemini_3g_indic">3G</string>
     <string name="sms_service_center">Центр служби SMS</string>
     <string name="service_center_label">"Центр служби:"</string>
     <string name="cu_subject">Lemei Subject</string>
@@ -1181,7 +1155,6 @@
     <string name="pref_title_mms_auto_reply_read_reports">Відправити звіт про прочитання</string>
     <string name="pref_summary_mms_auto_reply_read_reports">Відправити звіт про прочитання за запитом відправника MMS</string>
     <string name="exceed_subject_length_limitation">Досягнута максимальна довжина</string>
-    <string name="disable_notifications_dialog_message">Зупинити дублювання повідомлень текстових повідомлень?</string>
     <string name="sms_input_mode_title">Режим введення</string>
     <string name="sms_input_mode_dialog_title">Вибрати режим введення</string>
     <string name="sms_input_mode_summary">Режим введення SMS для складання повідомлення</string>
@@ -1254,8 +1227,6 @@
     <string name="slideshow_details">Деталі</string>
     <string name="open">Відкрити</string>
     <string name="delete_all_confirm">Видалити всі повідомлення?</string>
-    <string name="folder_recipient">Одержувач:</string>
-    <string name="folder_recieve_date">Дата:</string>
     <string name="folder_download">MMS завантажено</string>
     <string name="confirm_download_message">підтвердити завантаження повідомлення</string>
     <string name="play_as_slideshow">Відтворити MMS як слайдшоу</string>
@@ -1313,6 +1284,13 @@
     <string name="deselect_all">Зняти всі виділення</string>
     <string name="menu_delete_group">Видалити групу</string>
     <string name="menu_add_group_item">Додати групу</string>
+    <string name="multichoice_delete_group_confirm_message">Ви впевнені, що хочете видалити вибрану групу?</string>
+    <string name="multichoice_delete_group_confirm_title">Видалити групи?</string>
+    <string name="multichoice_delete_group_info_confirm_message">Ви впевнені, що хочете видалити вибрану групу контактів?</string>
+    <string name="multichoice_delete_group_info_confirm_title">Видалити групу контактів?</string>
+    <string name="add_contact_detail">+ Додати Контактну інформацію</string>
+    <string name="exporting_vcard_finished_description">Збережено в %s.</string>
+    <string name="activity_title_accout_select">Обрати обліковий запис</string>
     <string name="dialpad_call">Виклик</string>
     <string name="twelve_hour_time_format">h:mma</string>
     <string name="send_message">Надіслати повідомлення</string>
@@ -1359,40 +1337,42 @@
     <string name="add_quick_text">додати швидкий текст</string>
     <string name="menu_delete_quick_text">видалити швидкий текст</string>
     <string name="menu_select_quick_text">швидкий текст вибраний</string>
+    <string name="mms_load_contacts_name">﻿...</string>
+    <string name="mms_notification_no_subject">Без теми</string>
     <string name="prefs_ims_settings">Налаштування вибраних повідомлень</string>
     <string name="prefs_ims_close_title">Безкоштовний сервіс СМС</string>
     <string name="prefs_ims_close_title_summary">Включіть для безкоштовних смс, фото, голосових і відео повідомлень</string>
     <string name="prefs_ims_aout_to_sms_mode">Пересилати по SMS</string>
     <string name="prefs_ims_aout_to_sms_summary_mode">Автоматично пересилати безкоштовні повідомлення по SMS якщо немає доступу до мережі.</string>
-    <string name="message_ims_user_service_info">"Free information service user agreement
+    <string name="message_ims_user_service_info">"免费信息服务用户协议
 
-One, the agreement to grant you the following rights:
+一、本《协议》授予您下列权利：
 
-Installation and use:
+安装和使用：
 
-You can copy, distribute and disseminate an unlimited number of software products, but you must ensure that each reproduction, distribution and dissemination must be true and complete, including all software products on this software, electronic documents, copyright and trademark notices, also including this agreement.
+您可以复制、分发和传播无限制数量的软件产品，但您必须保证每一份复制、分发和传播都必须是完整和真实的，包括所有有关本软件产品的软件、电子文档，版权和商标宣言，亦包括本协议。
 
-Two, costs:
+二、费用说明：
 
-You must pay personal Internet or third party ( including but not limited to, telecommunications or mobile communication provider ) communication charge fee, fee information and other related costs. As related to value-added telecom services, we recommend you and value-added service provider to confirm the related costs. Any of the software update, update and other change will be the subject of this agreement.
+您必须自行负担个人上网或第三方（包括但不限于电信或移动通讯提供商）收取的通讯费、信息费等相关费用。如涉及电信增值服务，我们建议您与增值服务提供商确认相关费用问题。任何本软件的更新版本、更新以及其他变更将受到本协议约束。
 
-Three, privacy protection
+三、隐私保护
 
-To protect user privacy is a free information service is a basic policy, ensure not open to the public or to the third party to provide a single user registration information and users in the use of network services non-public content, except in the following situations:
+保护用户隐私是免费信息服务一项基本政策，保证不对外公开或向第三方提供单个用户的注册资料及用户在使用网络服务时的非公开内容，但下列情况除外：
 
-Prior to obtaining the clear authorization of user;
+事先获得用户的明确授权；
 
-According to the relevant laws and regulations;
+根据有关的法律法规要求；
 
-In accordance with the relevant government departments in charge of the requirements;
+按照相关政府主管部门的要求；
 
-In order to safeguard the public interest;
+为维护社会公众的利益；
 
-To safeguard the legitimate rights and interests of a letter.
+为维护乐蛙的合法权益。
 
-In the disclosed single user privacy under the premise, has the right to the user database are analyzed and the user database for commercial use.
+在不透露单个用户隐私资料的前提下，有权对整个用户数据库进行分析并对用户数据库进行商业上的利用。
 
-In four, the opening of free information service needs to send a message to the server to complete the registration fee, with ordinary SMS messages, by charge carriers, Le frog does not charge any fees."</string>
+四、开通免费信息服务需要向服务器发送一条短信以完成注册，资费同普通短信，由运营商收取，乐蛙不收取任何费用。"</string>
     <string name="message_ims_user_service_message_info">Безкоштовна інформаційна служба є більш потужним, ніж звичайні інформації, Домофон чат мережі легко з онлайн-контакти, текстові чати, заощадити гроші для відправки фотографій та інших мультимедійних інформаційних і комунікаційних досвід необмежену задоволення.</string>
     <string name="message_ims_user_service_open">Приєднатися</string>
     <string name="message_ims_user_service_to_later">Пізніше</string>
@@ -1432,6 +1412,8 @@ In four, the opening of free information service needs to send a message to the 
     <string name="mms_common_smiley">стандартні смайли</string>
     <string name="mms_char_smiley">символьні смайли</string>
     <string name="mms_lewa_smiley">LEWA смайли</string>
+    <string name="menu_select_operation_contents">Будь ласка, виберіть вміст для роботи</string>
+    <string name="menu_select_favorite_item_access">Доступ</string>
     <string name="ip_call_settings">Налаштування IP виклику</string>
     <string name="ip_prefix_hint">Наприклад 17951,12593,17911</string>
     <string name="ip_prefix_description">IP-префікс</string>
@@ -1482,5 +1464,18 @@ In four, the opening of free information service needs to send a message to the 
     <string name="store_in_google_account">Зберігати в аккаунті Google</string>
     <string name="position_change_warning">Зберігати тільки ім\'я і телефон при зміні місця зберігання на SIM</string>
     <string name="no_content_saved">Інформація не збережена!</string>
-	<string name="menu_call_log_filter">Журнал викликів</string>	
+    <string name="add_more_info_title">Додати більше інформації</string>
+    <string name="no_more_info_add">Можна додати більш детальну інформацію!</string>
+    <string name="dial_sim_select_title">Телефон</string>
+    <string name="sms_sim_select_title">Надіслати повідомлення</string>
+    <string name="sim_china_mobile">China Mobile</string>
+    <string name="sim_china_telecom">China Telecom</string>
+    <string name="sim_china_unicom">China Unicom</string>
+    <string name="menu_call_log_filter">Журнал викликів</string>
+    <string name="menu_dialpad_ipcall">IP телефонний дзвінок</string>
+    <string name="menu_dialpad_editprecall">Зателефонуйте попередньому виклику</string>
+    <string name="menu_dialpad_addblacklist">Чорний список</string>
+    <string name="dlg_title_ippref_notset">IP набір не встановлений</string>
+    <string name="dlg_msg_ippref_tosetting">Встановити IP набір!</string>
+    <string name="ipsetting_no_sim_card">Пристрій без SIM-карти, встановіть SIM-карту для IP набору</string>
 </resources>
