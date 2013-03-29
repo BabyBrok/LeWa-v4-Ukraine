@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="download_title">Завантаження</string>
+    <string name="cancel">Скасування</string>
+    <string name="ok">Гаразд</string>
+    <string name="download_file_already_exist">Файл вже існує, перезаписати?</string>
+    <string name="notification_download_complete_op01">Файл збережений в:</string>
+    <string name="app_label">Диспетчер завантаження</string>
+    <string name="permlab_downloadManager">Доступ до менеджера завантаження.</string>
+    <string name="permdesc_downloadManager">Додаток отримає доступ до диспетчера завантажень і зможе завантажувати файли через нього. Шкідливі програми зможуть таким чином переривати завантаження і переглядати особисту інформацію.</string>
+    <string name="permlab_downloadManagerAdvanced">Розширені функції менеджера завантаження.</string>
+    <string name="permdesc_downloadManagerAdvanced">Додаток отримає доступ до розширених функцій диспетчера завантажень. Шкідливі програми зможуть таким чином переривати завантаження і переглядати особисту інформацію.</string>
+    <string name="permlab_downloadCompletedIntent">Відправити сповіщення про завантаження.</string>
+    <string name="permdesc_downloadCompletedIntent">Додаток зможе відправляти оповіщення про завершення завантаження. Шкідливі програми зможуть таким чином заважати роботі додатків, що завантажують файли.</string>
+    <string name="permlab_seeAllExternal">Переглянути всі завантаження на SD-карту</string>
+    <string name="permdesc_seeAllExternal">Додаток отримає доступ до всіх завантаженнях на SD-карті незалежно від того, через яке ПЗ вони були завантажені.</string>
+    <string name="permlab_downloadCacheNonPurgeable">Резервувати місце в кеші завантаження</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Додаток зможе завантажувати файли в кеш завантаження (який не може бути автоматично очищений), якщо менеджеру завантаження потрібно більше місця.</string>
+    <string name="permlab_downloadWithoutNotification">завантажувати файли без оповіщення</string>
+    <string name="permdesc_downloadWithoutNotification">Додаток зможе завантажувати файли через диспетчер завантажень без повідомлення користувача.</string>
+    <string name="permlab_accessAllDownloads">Доступ до всіх завантаженнях</string>
+    <string name="permdesc_accessAllDownloads">Додаток зможе відкривати і змінювати завантаження незалежно від того, через яке ПЗ вони були завантажені.</string>
+    <string name="download_unknown_title">&lt;Без назви&gt;</string>
+    <string name="notification_filename_separator">", "</string>
+    <string name="notification_filename_extras">" і ще %d"</string>
+    <string name="notification_download_complete">Звантаження завершено.</string>
+    <string name="notification_download_failed">Не вдалося завантажити файл.</string>
+    <string name="notification_need_wifi_for_size">Завантаження тільки по Wi-Fi</string>
+    <string name="notification_paused_in_background">Завантаження призупинена</string>
+    <string name="wifi_required_title">Занадто великий файл для мережі оператора</string>
+    <string name="wifi_required_body" formatted="false">\"Для завершення завантаження файлу розміром %s необхідне підключення до мережі Wi-Fi.
+
+Щоб продовжити завантаження пізніше через Wi-Fi, натисніть %s ».</string>
+    <string name="wifi_recommended_title">Поставити в чергу на завантаження пізніше?</string>
+    <string name="wifi_recommended_body" formatted="false">\"Якщо завантажити %s зараз, батарея може швидко розрядитися. Також не виключено перевищення трафіку і, як результат, збільшення витрат на зв\'язок.
+
+Щоб виконати завантаження пізніше через Wi-Fi, натисніть %s ».</string>
+    <string name="button_queue_for_wifi">Додати в чергу</string>
+    <string name="button_cancel_download">Скасування</string>
+    <string name="button_start_now">Запустити</string>
+    <string name="download_percent">%d%%</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Постачальник засобів пошуку</string>
+    <string name="search_label">Додатки</string>
+    <string name="application_desc">Додаток</string>
+    <string name="settings_description">Назви встановлених додатків</string>
+</resources>

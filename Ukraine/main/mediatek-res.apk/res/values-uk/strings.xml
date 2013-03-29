@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_pinword_enter_pinword_code">Введіть PIN-код, щоб розблокувати</string>
+    <string name="badPin2">Введений PIN2 неправильний</string>
+    <string name="badPuk2">Введений PUK2 неправильний</string>
+    <string name="checkPwdLen">Перевірте, що ваш пароль від 4 до 8 цифр</string>
+    <string name="pinNotEnabled">Включите перевірку PIN-кода до його зміни</string>
+    <string name="puk1Blocked">PIN заблоковано</string>
+    <string name="puk2Blocked">PIN2 заблоковано</string>
+    <string name="fdnFailMmi">Помилка перевірки FDN</string>
+    <string name="callBarringFailMmi">Помилка включення заборони виклику</string>
+    <string name="Pin2Mmi">Зміна PIN2</string>
+    <string name="PukMmi">Розблокувати PIN-кода</string>
+    <string name="Puk2Mmi">Розблокувати PIN2</string>
+    <string name="serviceUnknown">Помилка з\'єднання або неправильний код MMI</string>
+    <string name="cfServiceNotForwarded">Не передано</string>
+    <string name="keyguard_password_enter_puk_code">Введіть PUK</string>
+    <string name="keyguard_password_wrong_puk_code">Неправильний PUK</string>
+    <string name="keyguard_password_enter_new_pin_code">Введіть новий PIN-коду</string>
+    <string name="keyguard_password_Confirm_pin_code">Підтвердіть новий PIN-кода</string>
+    <string name="invalidPuk">Введіть 8 цифр</string>
+    <string name="sim_permanently_locked">Ввівши невірний PUK більше 10 разів, ваша SIM-карти буде заблокована</string>
+    <string name="pin_length_indicate">(4-8 цифр)</string>
+    <string name="puk_length_indicate">(8 цифр)</string>
+    <string name="one_retry_left">залишився 1 повтор</string>
+    <string name="retries_left">Залишилося: %d</string>
+    <string name="invalid_imei">Неправильний IMEI</string>
+    <string name="same_imei">Однаковий IMEI</string>
+    <string name="oper_long_46000">China Mobile</string>
+    <string name="oper_long_46001">China Unicom</string>
+    <string name="oper_long_46601">Far EasTone</string>
+    <string name="oper_long_46692">Chunghwa Telecom</string>
+    <string name="oper_long_46697">Тайвань мобільний</string>
+    <string name="unable_launch_the_ap">Не вдається запустити додаток</string>
+    <string name="keyguard_password_enter_sim1_pin_code">Введіть PIN-коду у SIM 1</string>
+    <string name="RestrictedChangedTitle_SIM1">Змінилося обмеження доступу SIM1</string>
+    <string name="RestrictedChangedTitle_SIM2">Змінилося обмеження доступу SIM2</string>
+    <string name="keyguard_password_enter_sim2_pin_code">Введіть PIN-коду у SIM 2</string>
+    <string name="keyguard_password_wrong_sim1_pin_code">Неправильний PIN-коду у SIM-1</string>
+    <string name="keyguard_password_wrong_sim2_pin_code">Неправильний PIN-коду у SIM 2</string>
+    <string name="keyguard_password_enter_sim1_puk_code">Введіть PUK у SIM 1</string>
+    <string name="keyguard_password_enter_sim2_puk_code">Введіть PUK у SIM 2</string>
+    <string name="lockscreen_sim1_puk_locked_message">SIM 1 PUK-заблокована</string>
+    <string name="lockscreen_sim2_puk_locked_message">SIM 2 PUK-заблокована</string>
+    <string name="choose_bootup_mode">Будь ласка, виберіть SIM</string>
+    <string name="choose_gprs_mode">Виберіть Передача даних</string>
+    <string name="sim_close">SIM-карта закрита</string>
+    <string name="lockscreen_sim_puk_locked_message_short">PUK блокований</string>
+    <string name="lockscreen_sim_locked_message_short">Блок. SIM-карти</string>
+    <string name="lockscreen_password_error">Неправильний пароль, спробуйте ще раз</string>
+    <string name="lockscreen_pinword_error">Неправильний PIN-код, спробуйте ще раз</string>
+    <string name="music_no_artist">Невідомий артист</string>
+    <string name="music_play">Відтворити</string>
+    <string name="music_pause">Періодично</string>
+    <string name="music_library">Бібліотека</string>
+    <string name="music_no_songs">Нема пісень</string>
+    <string name="serviceClassVideo">Відео</string>
+    <string name="aerr_application_lowmem">Сховище телефон заповнено, додаток зупинено. Звільніть місце та спробуйте ще раз</string>
+    <string name="aerr_process_lowmem">Сховище телефон заповнено, обробка зупинена. Звільніть місце та спробуйте ще раз</string>
+    <string name="free_memory_btn">Вільне місце</string>
+    <string name="free_memory_text">Мало пам\'яті, щоб звільнити пам\'ять</string>
+    <string name="mem_low_title">Будь ласка, звільніть пам\'ять</string>
+    <string name="no_favorite_contacts">Немає вибраних контактів</string>
+    <string name="media_controller_buffering">Буферизація %d%%...</string>
+    <string name="contact_widget_loading">Завантаження</string>
+    <string name="volume_fm">Гучність FM</string>
+    <string name="volume_matv">Гучність мобільного ТБ</string>
+    <string name="media_controller_live">Live</string>
+    <string name="media_controller_playing">Зараз відтвор</string>
+    <string name="media_controller_connecting">Підключення...</string>
+    <string name="media_controller_weak_signal">Слабкий сигнал</string>
+    <string name="VideoView_error_text_bad_file">Відео не може бути відтворене - поганий файл</string>
+    <string name="VideoView_error_text_cannot_connect_to_server">Неможливо з\'єднатись із сервером</string>
+    <string name="VideoView_error_text_type_not_supported">Тип файлу не підтримується</string>
+    <string name="VideoView_error_text_drm_not_supported">Захист DRM, не можу програти відео</string>
+    <string name="wday_year_month_day" formatted="false">%s, %s рік %s %s день</string>
+    <string name="wday_year_day_month" formatted="false">%s %s рік %s день, %s</string>
+    <string name="wday_month_day_year" formatted="false">%s, %s %s день, %s рік</string>
+    <string name="wday_month_year_day" formatted="false">%s, %s %s рік %s день</string>
+    <string name="recip_unsupport_operator">Перегляд одержувачів не підтримує операції, використовуйте панель управління</string>
+    <string name="recip_unsupport_selection">Вибачте, ви не можете перемістити курсор на початок, коли є одержувачі в перегляньте одержувачів</string>
+    <string name="drm_protectioninfo_title">Захист інформації</string>
+    <string name="oper_long_46003">China Telecom</string>
+    <string name="calibration_data">Калібрування, будь ласка, завантажте калібрувальні дані, в іншому разі пристрій не зможе підключитися до мережі. [Для внутрішнього використання]</string>
+    <string name="invalid_card">Неправильна картка</string>
+    <string name="wday_day_month_year" formatted="false">%s, %s день %s %s рік</string>
+    <string name="wday_day_year_month" formatted="false">%s, %s день %s рік %s</string>
+    <string name="year_month_day_wday" formatted="false">%s рік %s %s день, %s</string>
+    <string name="year_day_month_wday" formatted="false">%s рік %s день %s, %s</string>
+    <string name="month_day_year_wday" formatted="false">%s %s день, %s рік, %s</string>
+    <string name="month_year_day_wday" formatted="false">%s %s рік %s день, %s</string>
+    <string name="day_month_year_wday" formatted="false">%s день %s %s рік, %s</string>
+    <string name="day_year_month_wday" formatted="false">%s день %s рік %s, %s</string>
+    <string name="VideoView_error_text_invalid_connection">Помилка з\'єднання. (403 Заборона)</string>
+    <string name="wikiPediaName">Вікіпедія</string>
+    <string name="redo">Повтор</string>
+    <string name="undo">Відмінити</string>
+    <string name="undoAll">Скасувати всі</string>
+    <string name="new_sim">Нова SIM</string>
+    <string name="edit">Редагувати</string>
+    <string name="delete">ВИДАЛИТИ</string>
+    <string name="new_sim_inserted">Виявлена нова SIM</string>
+    <string name="change_setting_for_onenewsim">"Виявлена нова SIM-карти. Вона названа"</string>
+    <string name="change_setting_for_twonewsim">"Виявлена нова SIM-карти. Вона названа"</string>
+    <string name="change_settings">Змінити</string>
+    <string name="default_sim_removed">SIM-карти за замовчуванням видалена</string>
+    <string name="change_setting_for_removesim">Деякі SIM видалені. Налаштування за замовчуванням:</string>
+    <string name="keyguard_voicecall">Голосовий виклик:</string>
+    <string name="keyguard_sms">Повідомлення:</string>
+    <string name="keyguard_data">Передача даних:</string>
+    <string name="keyguard_alwaysask">Питати завжди</string>
+    <string name="keyguard_data_none">Вимк</string>
+    <string name="dismiss">Ігнорувати</string>
+    <string name="keyguard_wrong_code_input">Невірний код</string>
+    <string name="keyguard_code_length_prompt">Введіть 4-8 цифр</string>
+    <string name="keyguard_code_donnot_mismatch">"Не збігається"</string>
+    <string name="for_text">для</string>
+    <string name="keyguard_internal_call">Інтернет-дзвінок</string>
+    <string name="keyguard_not_set">Не встановлено</string>
+    <string name="network_searching">Пошук нової мережі</string>
+    <string name="searching_simcard">Виявлення...</string>
+    <string name="keyguard_close">Вимк</string>
+    <string name="more_siminfo_for_button">Докладніше</string>
+    <string name="more_info_title">Розблокувати обрану SIM</string>
+    <string name="for_first_simcard">Для першої SIM</string>
+    <string name="for_second_simcard">Для другої SIM</string>
+    <string name="new_sim_card_inserted">Вставлена ​​нова SIM</string>
+    <string name="new_sim_setting_prompt">Тепер налаштування такі:</string>
+    <string name="keyguard_videocall">Відеозв\'язок:</string>
+    <string name="dm_prompt">Термінал вже заблокований</string>
+    <string name="lockscreen_pin_too_many_failed_attempts_dialog_message" formatted="false">"Ви ввели невірний PIN %d раз(и).
+
+Спробуйте ще раз через %d сек."</string>
+    <string name="lockscreen_password_too_many_failed_attempts_dialog_message" formatted="false">"Ви неправильно ввели пароль %d раз(и).
+
+Спробуйте ще раз через %d сек."</string>
+    <string name="criticallowtitle">Немає місця</string>
+    <string name="criticallowmessage">Пам\'ять телефону заповнено, видаліть непотрібні файли, інакше додатки можуть несподівано завершити роботу</string>
+    <string name="nq_sms_filter_title">Фільтр SMS</string>
+    <string name="nq_sms_filter_message">Ця програма може зняти гроші. Продовжити</string>
+    <string name="nq_sms_filter_yes">Так</string>
+    <string name="nq_sms_filter_no">Ні</string>
+    <string name="ext_media_checking_notification_title_sd2">Підготовка карти SD…</string>
+    <string name="drm_protection_status">Статус захисту:</string>
+    <string name="drm_can_forward">Можна перенаправити</string>
+    <string name="drm_can_not_forward">Не можна перенаправити</string>
+    <string name="drm_no_limitation">Без обмежень</string>
+    <string name="drm_no_license">Немає доступної ліцензії DRM</string>
+    <string name="drm_begin">Початок:</string>
+    <string name="drm_end">Кінець:</string>
+    <string name="drm_use_left">Залишилося:</string>
+    <string name="drm_protectioninfo_renew">Відновити</string>
+    <string name="drm_licenseacquisition_title">Придбання ліцензій DRM</string>
+    <string name="drm_licenseacquisition_message">%1$s немає доступних ліцензій DRM. Ви можете натиснути \"Оновити\" для їх придбання</string>
+    <string name="drm_toast_license_expired">Ліцензія DRM прострочена</string>
+    <string name="drm_forwardforbidden_title">Перенаправлення заборонено</string>
+    <string name="drm_forwardforbidden_message">Деякі захищені файли не можуть бути перенаправлені</string>
+    <string name="drm_license_install_success">Установка DRM ліцензії пройшла успішно</string>
+    <string name="drm_license_install_fail">Помилка установки DRM ліцензії</string>
+    <string name="drm_secure_timer_title">Неправильні годинник безпеки DRM</string>
+    <string name="drm_secure_timer_message">Ви не можете використовувати захищені файли DRM. Переконайтеся, що передача даних доступна</string>
+    <string name="drm_consume_title">Вимога прав DRM</string>
+    <string name="drm_consume_message">Ваші дії вимагають прав DRM</string>
+    <string name="drm_forward_forbidden">Один або більш захищених файло не можуть бути перенаправлені</string>
+    <string name="sim_missing_slot1">Не виявлена ​​SIM-карта (Слот 1)</string>
+    <string name="sim_missing_slot2">Не виявлена ​​SIM-карта (Слот 2)</string>
+    <string name="sim_missing">Не виявлені SIM-карти</string>
+    <string name="sim_missing_detail">Перевірте готовність SIM-карти</string>
+    <string name="wap_push_setting_noti_ticker">Дозволити PUSH сервіс</string>
+    <string name="wap_push_setting_noti_title">Дозволити PUSH сервіс</string>
+    <string name="wap_push_setting_noti_text">Натисніть для вибору</string>
+    <string name="url_dialog_choice_title">Інформація</string>
+    <string name="url_dialog_choice_message">Це відкриє браузер, продовжити</string>
+    <string name="deleteApp">Видалення програм</string>
+    <string name="deleteMail">Резервне копіювання пошти і видалення сховища</string>
+    <string name="default_label">Сигнали</string>
+    <string name="dismiss_power_on">Скасування та завантаження</string>
+    <string name="dismiss_power_off">Скасування та вимкнення</string>
+    <string name="alarm_alert_snooze_text">Періодично</string>
+    <string name="never">Ніколи</string>
+    <string name="day_concat">", "</string>
+    <string name="every_day">Щодня</string>
+    <string name="repeat_weekdays">Робочі дні</string>
+    <string name="storage_withsd">У пам\'яті телефону не вистачає місця. Очистіть місце або змініть пам\'ять за замовчуванням</string>
+    <string name="storage_withoutsd">У пам\'яті телефону не вистачає місця. Очистіть місце або вставте SD карту</string>
+    <string name="storage_sd">На SD карті не вистачає місця. Очистіть місце або змініть пам\'ять за замовчуванням</string>
+    <string name="usb_ums_notification_title">Використання в якості запам\'ятовуючого пристрою USB</string>
+    <string name="usb_charging_notification_title">Використовуйте тільки USB-зарядку</string>
+    <string name="gps_time_sync_fail_str">Не використовувати час GPS</string>
+    <string name="find_previous">Попередній</string>
+    <string name="find_next">Наступний</string>
+    <item type="string" name="APKTOOL_DUMMY_00e2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00eb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ec">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ed">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ee">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ef">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fe">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ff">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0100">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0101">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0102">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0103">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0104">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0105">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0106">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0107">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0108">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0109">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0110">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0111">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0112">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0113">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0114">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0115">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0116">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0117">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0118">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0119">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0120">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0121">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0122">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0123">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0124">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0125">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0126">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0127">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0128">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0129">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0130">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0131">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0132">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0133">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0134">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0135">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0136">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0137">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0138">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0139">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0140">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0141">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0142">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0143">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0144">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0145">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0146">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0147">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0148">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0149">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0150">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0151">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0152">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0153">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0154">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0155">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0156">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0157">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0158">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0159">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0160">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0161">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0162">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0163">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0164">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0165">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0166">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0167">false</item>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Сховище змісту, захищеного DRM</string>
+    <string name="permlab_accessDrm">Доступ до змісту DRM</string>
+    <string name="permdesc_accessDrm">Надає додатком доступ до змісту, захищеного DRM</string>
+    <string name="permlab_installDrm">Установка змісту DRM</string>
+    <string name="permdesc_installDrm">Дозволяє додатку встановлювати зміст, захищене DRM</string>
+</resources>

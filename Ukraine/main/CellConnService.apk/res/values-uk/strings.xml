@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CellConnectionService</string>
+    <string name="button_ok">ОК</string>
+    <string name="button_cancel">Скасування</string>
+    <string name="confirm_radio_title">SIM-карта вимкнена</string>
+    <string name="confirm_radio_msg">%1$s зараз вимкнена. Включити цю SIM-карту?</string>
+    <string name="confirm_radio_msg_single">Зараз включений режим «У літаку», відключити його?</string>
+    <string name="confirm_pin_title">Блокування PIN-коду</string>
+    <string name="confirm_pin_msg">SIM-карта, яку ви збираєтеся використовувати, заблокована. Розблокувати картку?</string>
+    <string name="confrim_simmelock_title">Блокування SIM-карти ME</string>
+    <string name="confirm_simmelock_msg">Слот SIM-карти, яку ви збираєтеся використовувати, заблокований. Розблокувати слот?</string>
+    <string name="confirm_fdn_title">Фіксований набір включений</string>
+    <string name="confirm_fdn_msg">Фіксований набір номерів включений.</string>
+    <string name="confirm_roaming_title">Попередження: роумінг</string>
+    <string name="confirm_roaming_msg">Обрана SIM-карта працює в режимі роумінгу. SIM-карта для \"домашньої\" мережі недоступна. Продовжити?</string>
+    <string name="confirm_roaming_withPrefer_msg">Обрана SIM-карта працює в режимі роумінгу. Переключитися на SIM-карту \"домашньої\" мережі?</string>
+    <string name="confirm_roaming_lbutton">Продовжити</string>
+    <string name="confirm_roaming_rbutton">Скасування</string>
+    <string name="confirm_roamingWithPrefer_lbutton">\"Домашня\" SIM-карта</string>
+    <string name="confirm_roamingWithPrefer_rbutton">Роумінг SIM-карти</string>
+    <string name="confirm_radio_lbutton">Включити</string>
+    <string name="confirm_unlock_lbutton">Розблокувати</string>
+    <string name="confirm_unlock_fail">Операцію скасовано</string>
+    <string name="confirm_turnon_radio_fail">Операцію скасовано</string>
+    <string name="confirm_permit_roaming_fail">Ви відключили це дія для SIM-карти в роумінгу</string>
+    <string name="confirm_sim_locked_message">SIM-карта безповоротно заблокована.</string>
+    <string name="confirm_slot_locked_message">Гніздо заблоковано назавжди.</string>
+    <string name="confirm_disable_lbutton">Відключити</string>
+</resources>

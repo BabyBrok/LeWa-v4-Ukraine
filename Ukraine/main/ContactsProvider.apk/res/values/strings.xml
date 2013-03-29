@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sharedUserLabel">Android Основные приложения</string>
+    <string name="app_label">Контакт магазин</string>
+    <string name="provider_label">Контакт</string>
+    <string name="upgrade_msg">Обновляется база данных контактов.</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Контактная обновление требует больше пространства для хранения</string>
+    <string name="upgrade_out_of_memory_notification_title">Обновления контакт низким дискового пространства</string>
+    <string name="upgrade_out_of_memory_notification_text">Выберите для завершения обновления.</string>
+    <string name="default_directory">Контакт</string>
+    <string name="local_invisible_directory">Другие</string>
+    <string name="read_write_all_voicemail_label">Доступ для всех голосовых сообщений</string>
+    <string name="read_write_all_voicemail_description">Позволяет приложению хранить и извлекать это устройство для доступа ко всем вашей голосовой почты.</string>
+    <string name="voicemail_from_column">"Голосовой почты отправителя "</string>
+</resources>
