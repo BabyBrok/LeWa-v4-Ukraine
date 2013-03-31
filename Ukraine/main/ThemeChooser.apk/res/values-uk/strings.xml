@@ -6,8 +6,6 @@
     <string name="theme_loading">Загрузка...</string>
     <string name="app_name">Темы</string>
     <string name="app_title">Темы</string>
-    <string name="share">поделиться</string>
-    <string name="info">информация</string>
     <string name="apply">Применить</string>
     <string name="delete">удалить</string>
     <string name="menu_header">Опции темы</string>
@@ -70,6 +68,7 @@
     <string name="apply_toast">Тема успешно установлена! Выберите ее снова для применения!</string>
     <string name="no_sdcard">Пожалуйста, вставьте SD карту и попробуйте еще раз</string>
     <string name="filemanager_can_not_find">Файловый менеджер не найден!</string>
+    <string name="can_not_find_app">Не возможно найти применение</string>
     <string name="import_other_app">Импорт из других приложений</string>
     <string name="other_uri">другое</string>
     <string name="theme_count">Эта тема содержит %s модулей</string>
@@ -93,6 +92,7 @@
     <string name="theme_font_online">Онлайн</string>
     <string name="theme_info_detail">Детали</string>
     <string name="sdcardfull">SD карта переполнена, невозможно загрузить миниатюру</string>
+    <string name="sdcard_removed">SDCard был удален, вы не можете скачать просмотр</string>
     <string name="init_install_theme">Инициализация темы, пожалуйста, подождите</string>
     <string name="apply_font">применить шрифт</string>
     <string name="apply_font_success">шрифты установлены. Необходима перезагрузка</string>
@@ -103,7 +103,10 @@
     <string name="theme_version">версия:</string>
     <string name="theme_date">дата:</string>
     <string name="theme_introduction">описание:</string>
+    <string name="theme_download_count">Скачиваний:</string>
     <string name="theme_name">имя темы:</string>
     <string name="theme_download">скачать</string>
     <string name="theme_next">дальше</string>
+    <string name="network_closed">Сеть выключена, сетевые разрешения ограниченны!</string>
+    <string name="set_network">Настройка прав сети</string>
 </resources>

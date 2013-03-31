@@ -155,8 +155,4 @@
         <item>Піаніно</item>
         <item>Гітара</item>
     </string-array>
-    <item type="array" name="APKTOOL_DUMMY_001d">false</item>
-    <item type="array" name="APKTOOL_DUMMY_001e">false</item>
-    <item type="array" name="APKTOOL_DUMMY_002b">false</item>
-    <item type="array" name="APKTOOL_DUMMY_002c">false</item>
 </resources>

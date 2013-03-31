@@ -116,10 +116,4 @@
     <string name="lewaos_bbs">LeWa спільнота</string>
     <string name="menu_scene">Сцена робочого столу</string>
     <string name="delete_zone_label_all_apps">Видалити</string>
-    <item type="string" name="APKTOOL_DUMMY_007f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0080">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0081">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0082">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0083">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0084">false</item>
 </resources>

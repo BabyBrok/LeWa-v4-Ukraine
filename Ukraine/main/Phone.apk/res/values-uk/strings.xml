@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="onscreenHangupAll">«Повісити» всі телефонні трубки</string>
     <string name="onscreenHangupHolding">Утримання режиму «повішеною» трубки</string>
@@ -952,10 +953,5 @@
     <string name="update_plmn_setting">PLMN набір</string>
     <string name="incall_status_dialed_fc">Початок послідовності коду функції...</string>
     <string name="dtmfDialpadHintText">Клавіатура тонального набору</string>
-    <string name="onscreenUnholdText">"Рекавері
-"</string>
-    <item type="string" name="APKTOOL_DUMMY_0161">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0162">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0163">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0178">false</item>
+    <string name="onscreenUnholdText">"Рекавері"</string>
 </resources>

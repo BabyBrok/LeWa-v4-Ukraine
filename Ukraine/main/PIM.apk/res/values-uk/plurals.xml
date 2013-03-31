@@ -68,6 +68,4 @@
         <item quantity="zero">Вибрано %1$d</item>
         <item quantity="one">Вибрано %1$d</item>
     </plurals>
-    <item type="plurals" name="APKTOOL_DUMMY_0011">false</item>
-    <item type="plurals" name="APKTOOL_DUMMY_0012">false</item>
 </resources>

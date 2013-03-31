@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="virus_defense_title">Антивірус</string>
+    <string name="viruskill_title">Антивірус</string>
+    <string name="viruskill_log_title">Журнал антивіруса</string>
+    <string name="permession_manage_title">Управління доступом</string>
+    <string name="check_database_update">Перевірка оновлень</string>
+    <string name="delete">Видалити</string>
+    <string name="install_monitor">Встановити монітор</string>
+    <string name="timer_scan">Сканування за розкладом</string>
+    <string name="omission">Скоро</string>
+    <string name="logo_notice">Працює на Tencent Mobile Manager</string>
+    <string name="select">вибрані</string>
+    <string name="first_use1">Ваш телефон не був перевірений</string>
+    <string name="first_use2">Будь ласка запустіть сканування зараз</string>
+    <string name="state_normal">Сканування за розкладом допоможе захистити телефон від вірусів.</string>
+    <string name="need_to_kill1">Ваш телефон не був перевірений %s дні (-ів)</string>
+    <string name="need_to_kill2">Будь ласка, запустіть сканування зараз</string>
+    <string name="is_cancel1">Пропонуємо пересканіровать</string>
+    <string name="is_cancel2">Сканування скасовано, безпека телефон не підтверджена</string>
+    <string name="scanner_title">Сканувати телефон</string>
+    <string name="init_scan">0%</string>
+    <string name="gap_notice">Просканувати% з назад</string>
+    <string name="gap_error_notice">Минуле сканування: %s</string>
+    <string name="scan_just_now">Просканувати тільки що</string>
+    <string name="defense_monitor_open">Монітор запущений</string>
+    <string name="defense_monitor_close1">Монітор запущений частково</string>
+    <string name="defense_monitor_close2">Неповна захист</string>
+    <string name="scan_counts">Перевірено:</string>
+    <string name="scan_time">Час:</string>
+    <string name="viruse_counts">Заражене:</string>
+    <string name="caution_counts">Підозрілих:</string>
+    <string name="scan_continue">Продовжувати сканування</string>
+    <string name="scan_cancel">Скасування сканування</string>
+    <string name="scan_pause">Призупинити сканування</string>
+    <string name="scan_pause_log">Сканування вже призупинено</string>
+    <string name="scan_finish">Завершити</string>
+    <string name="clear_now">Очистити зараз</string>
+    <string name="scan_warm_tips">Підказка</string>
+    <string name="scan_dialog_content">Сканування не завершено, ви впевнені, що хочете зупинити перевірку?</string>
+    <string name="scan_of_clound">Сканування в хмарі</string>
+    <string name="scan_state_safe">Сканування завершено, ваш телефон у безпеці</string>
+    <string name="scan_state_risk">Він знаходиться в небезпеці, будь ласка запустіть сканування зараз.</string>
+    <string name="scan_state_cloud_fail">Сканування було завершено, перевірка в хмарі</string>
+    <string name="scan_result_Congratulate">Поздоровлення</string>
+    <string name="scan_result_tips">Безкоштовний антивірус стежить за вашим телефоном.</string>
+    <string name="scan_result_suggestion">Порада: Видалити</string>
+    <string name="scan_result_suggestion_del">Порада: Del</string>
+    <string name="scan_virus_soft">Заражений</string>
+    <string name="scan_caution_soft">Програмне забезпечення під загрозою</string>
+    <string name="defense_notification">Нагадувати про захист від вірусів</string>
+    <string name="defense_risk_notification">Це програмне забезпечення небезпечно</string>
+    <string name="defense_virus_notification">Це програмне забезпечення заражене</string>
+    <string name="defense_safe_notification">Це програмне забезпечення є безпечним</string>
+    <string name="scan_interrupt">Зупинка сканування</string>
+    <string name="scan_interrupt_notifiction1">Сканування осатновлено</string>
+    <string name="scan_interrupt_notifiction2">Провести сканування повторно</string>
+    <string name="already_clear">Заражений файл очищений
+</string>
+    <string name="scan_state_start">Сканування...
+</string>
+    <string name="scan_state_cloud">Сканування в хмарі...
+</string>
+    <string name="scan_state_end">Кінець сканування
+</string>
+    <string name="scan_schedule_notice">Повідомлення сканування
+</string>
+    <string name="scan_schedule_notice_summary">Будь ласка, натисніть для сканування
+</string>
+    <string name="delete_notice">Підтвердіть, щоб видалити цей файл?
+</string>
+    <string name="cloud_scan_error">Помилка сканування в хмарі!
+</string>
+    <string name="scan_init">Ініціалізація...
+</string>
+    <string name="scan_pause_init">Призупинення сканування...</string>
+    <string name="update_title">Оновлення бази вірусів</string>
+    <string name="update_auto">Автооновлення</string>
+    <string name="update_toast">Перевірка поновлення, будь ласка, почекайте...</string>
+    <string name="update_wait">Йде оновлення даних, будь ласка, почекайте...</string>
+    <string name="network_error">Мережева помилка, код помилки:</string>
+    <string name="connect_error">Закінчився час очікування підключення</string>
+    <string name="update_tone">Увага</string>
+    <string name="update_note_version">Бази даних вірусів %s вже застаріли!</string>
+    <string name="update_notice">Будь ласка, поновіть до останньої версії:</string>
+    <string name="update_note_size">Розмір поновлення: %s</string>
+    <string name="update_note_already_latest">Остання версія. Оновлення не потрібно!</string>
+    <string name="update_note_known">Є</string>
+    <string name="update_tips">Пам\'ятайте, регулярно оновлюйте антивірусні бази.</string>
+    <string name="unupdate_tips">Ви давно не оновлювали антивірусну базу!</string>
+    <string name="update_version">Версія: %s</string>
+    <string name="log_list_empty">Немає журналу антивіруса</string>
+    <string name="log_virus_counts">Заражене: %s</string>
+    <string name="log_caution_counts">Загроз: %s</string>
+    <string name="log_clear_counts">Очищено: %s</string>
+    <string name="log_unhandle_counts">Чи не вилечно: %s</string>
+    <string name="log_clear_all">Видалити</string>
+    <string name="log_if_clear_all">Видалити %s журнал антивіруса?</string>
+    <string name="setting">Налаштування</string>
+    <string name="setting_install_monitor">Параметри монітора</string>
+    <string name="setting_unknown_costs">Монітор платежів</string>
+    <string name="setting_unknown_costs_summary">Монітор в реальному часі блокує вредоностную кнопку оплати</string>
+    <string name="setting_defense">Параметри сканування</string>
+    <string name="setting_scan_of_clound">Перевірка в хмарі</string>
+    <string name="setting_cloud_kill_summary">Сканування в хмарі дає більш точні результати</string>
+    <string name="setting_timer_scan_summary">Регулярне сканування захистить мобільний телефон</string>
+    <string name="setting_time">Час</string>
+    <string name="setting_defense_schedule">Розклад сканування</string>
+    <string name="setting_everyday">кожен день</string>
+    <string name="setting_everyweek">щотижня</string>
+    <string name="setting_defense_schedule_date">Дата сканування</string>
+    <string name="setting_update">Параметри оновлення</string>
+    <string name="setting_auto_update">Автоматичне оновлення</string>
+    <string name="setting_data_update">Оновлення антивірусних баз</string>
+    <string name="setting_auto_update_summary">Регулярне оновлення антивірусних баз допомагає виявляти нові віруси</string>
+    <string name="setting_install_monitor_summary">Сканування програмного забезпечення в реальному часі запобігає зараженню</string>
+    <string name="last_one_notice">Будь ласка, виберіть принаймні один день</string>
+    <string name="minute">хвилина</string>
+    <string name="second">секунд</string>
+    <string name="monday">Понеділок</string>
+    <string name="tuesday">Вівторок</string>
+    <string name="wednesday">Середа</string>
+    <string name="thursday">Четвер</string>
+    <string name="friday">П\'ятниця</string>
+    <string name="saturday">Субота</string>
+    <string name="sunday">Неділя</string>
+    <string name="sure">Підтвердіть</string>
+    <string name="cancel">Скасування</string>
+    <string name="every_day">Кожен день</string>
+    <string name="never">Ніколи</string>
+    <string name="day_concat">", "</string>
+    <string name="days">дні (-ів)</string>
+    <string name="hours">годин</string>
+    <string name="minutes">хвилин (и)</string>
+</resources>
