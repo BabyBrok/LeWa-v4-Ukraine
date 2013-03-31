@@ -1,336 +1,467 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Проводник</string>
-    <string name="desktop_name">Проводник</string>
+    <string name="app_name">Провідник</string>
+    <string name="desktop_name">Провідник</string>
     <string name="lewa_name">Lewa SDManager</string>
-    <string name="tab_category">Категории</string>
-    <string name="category">Категории</string>
-    <string name="tab_sdcardlist">SD карты</string>
-    <string name="nofile">Нет файлов в данной папке</string>
+    <string name="tab_category">Категорії</string>
+    <string name="category">Категорії</string>
+    <string name="tab_sdcardlist">SD карти</string>
+    <string name="nofile">Немає файлів в даній папці</string>
     <string name="sd_name">SD-карта</string>
-    <string name="copy_title">Выберите папку куда скопировать</string>
-    <string name="copy_button">Скопировать сюда</string>
-    <string name="choose_path">Выберите папку</string>
-    <string name="folder_name">Имя папки</string>
-    <string name="really_delete">Вы точно хотите удалить %s?</string>
-    <string name="paste">Вставить</string>
-    <string name="cancel">Отмена</string>
-    <string name="cut">Вырезать</string>
-    <string name="delete">Удалить</string>
-    <string name="copy">Скопировать</string>
-    <string name="select_all">Выбрать всё</string>
-    <string name="home">Домой</string>
-    <string name="menu_new_folder">Новая папка</string>
-    <string name="menu_delete">Удалить</string>
-    <string name="menu_rename">Переименовать</string>
-    <string name="menu_send">Отправить</string>
-    <string name="menu_open">Открыть</string>
-    <string name="menu_move">Переместить</string>
-    <string name="menu_copy">Копировать</string>
-    <string name="menu_fileinfo">Информация о файле</string>
-    <string name="menu_sort">Сортировать</string>
-    <string name="menu_new_dir">Новая папка</string>
-    <string name="menu_refresh">Обновить</string>
-    <string name="menu_sort_name">По имени</string>
-    <string name="menu_sort_size">По размеру</string>
-    <string name="menu_sort_time">По времени</string>
-    <string name="menu_sort_type">По типу</string>
-    <string name="folder_renamed">Папка переименована.</string>
-    <string name="file_renamed">Файл переименован.</string>
-    <string name="error_renaming_folder">Невозможно переименовать папку.</string>
-    <string name="error_renaming_file">Невозможно переместить файл.</string>
-    <string name="music">Музыка</string>
-    <string name="video">Видео</string>
+    <string name="copy_title">Виберіть папку куди скопіювати</string>
+    <string name="copy_button">Скопіювати сюди</string>
+    <string name="choose_path">Виберіть папку</string>
+    <string name="folder_name">Ім\'я папки</string>
+    <string name="really_delete">Ви точно хочете видалити %s?</string>
+    <string name="paste">Вставити</string>
+    <string name="cancel">Скасування</string>
+    <string name="cut">Вирізати</string>
+    <string name="delete">Видалити</string>
+    <string name="copy">Скопіювати</string>
+    <string name="select_all">Вибрати всі</string>
+    <string name="home">Додому</string>
+    <string name="menu_new_folder">Нова папка</string>
+    <string name="menu_delete">Видалити</string>
+    <string name="menu_rename">Перейменувати</string>
+    <string name="menu_send">Відіслати</string>
+    <string name="menu_open">Відкрити</string>
+    <string name="menu_move">Перемістити</string>
+    <string name="menu_copy">Копіювати</string>
+    <string name="menu_fileinfo">Інформація про файл</string>
+    <string name="menu_sort">Сортувати</string>
+    <string name="menu_new_dir">Нова папка</string>
+    <string name="menu_refresh">Оновити</string>
+    <string name="menu_sort_name">По імені</string>
+    <string name="menu_sort_size">За розміром</string>
+    <string name="menu_sort_time">За часом</string>
+    <string name="menu_sort_type">За типом</string>
+    <string name="folder_renamed">Папка перейменована.</string>
+    <string name="file_renamed">Файл перейменований.</string>
+    <string name="error_renaming_folder">Неможливо перейменувати папку.</string>
+    <string name="error_renaming_file">Неможливо перемістити файл.</string>
+    <string name="music">Музика</string>
+    <string name="video">Відео</string>
     <string name="image">Фото</string>
-    <string name="doc">Док-ты</string>
+    <string name="doc">Док-ти</string>
     <string name="app">Софт</string>
     <string name="sdcardcapa_default">0 G</string>
-    <string name="sdcardcapa_total">Всего:</string>
+    <string name="sdcardcapa_total">Всього:</string>
     <string name="sdcardcapa_available">Дост.:</string>
-    <string name="sure_delete">Удалить этот элемент?</string>
-    <string name="sure_mass_delete">Удалить эти элементы?</string>
-    <string name="yes">Да</string>
-    <string name="no">Нет</string>
-    <string name="copiing">Копирование файлов...</string>
-    <string name="cutting">Вырезание файлов...</string>
-    <string name="deleting">Удаление файлов...</string>
-    <string name="copy_continuecopy">Продолжение копирования</string>
-    <string name="cut_continuecut">Продолжение вырезания</string>
-    <string name="overwrite_confirm">Вы действительно хотите перезаписать %s файлы?</string>
-    <string name="overwrite_continue">Перезаписывание</string>
-    <string name="cancelcopy">Отмена копирования</string>
-    <string name="cancelcut">Отмена вырезания</string>
-    <string name="child_invalidoperation">Операция отменена, папка является вложенной %s файлов</string>
-    <string name="cannt_rename_same_name">Невозможно переименовать файл с таким же именем</string>
-    <string name="find_no_associated_app">Не удалось найти связанное приложение</string>
-    <string name="path_choice">Выберите папку</string>
-    <string name="sdcard_unavailable">SD-карта отсутствует</string>
-    <string name="disselect_all">Всё отменить</string>
-    <string name="copyof">"Копия "</string>
-    <string name="same_name_files_operation_cancel">Операция отменена,т.к файлы с одинаковыми именами</string>
-    <string name="detail_name">Имя:</string>
-    <string name="detail_size">Размер:</string>
-    <string name="detail_location">Путь:</string>
-    <string name="detail_lastmodifiedtime">Время:</string>
-    <string name="detail_readable">Чтение:</string>
-    <string name="detail_writable">Запись:</string>
-    <string name="detail_hidden">Скрытые:</string>
-    <string name="title_detail">Скрытые:</string>
-    <string name="computing">Обработка...</string>
-    <string name="currCategoryNoFile">Нет файлов в текущей категории</string>
-    <string name="used_percent_default_text">Занято:</string>
-    <string name="gmail">gMail</string>
+    <string name="sure_delete">Видалити цей елемент?</string>
+    <string name="sure_mass_delete">Видалити ці елементи?</string>
+    <string name="yes">Так</string>
+    <string name="no">Немає</string>
+    <string name="copiing">Копіювання файлів...</string>
+    <string name="cutting">Вирізання файлів...</string>
+    <string name="deleting">Видалення файлів...</string>
+    <string name="copy_continuecopy">Продовження копіювання</string>
+    <string name="cut_continuecut">Продовження вирізування</string>
+    <string name="overwrite_confirm">Ви справді бажаєте перезаписати %s файли?</string>
+    <string name="overwrite_continue">Перезапісиваніе</string>
+    <string name="cancelcopy">Скасування копіювання</string>
+    <string name="cancelcut">Скасування вирізування</string>
+    <string name="child_invalidoperation">Операція скасована, папка є вкладеною %s файлів</string>
+    <string name="cannt_rename_same_name">Неможливо перейменувати файл з таким же ім\'ям</string>
+    <string name="find_no_associated_app">Не вдалося знайти пов\'язану програму</string>
+    <string name="path_choice">Виберіть папку</string>
+    <string name="sdcard_unavailable">SD-карта відсутня</string>
+    <string name="disselect_all">Всі скасувати</string>
+    <string name="copyof">"Копія"</string>
+    <string name="same_name_files_operation_cancel">Операція скасована, т.к файли з однаковими іменами</string>
+    <string name="detail_name">Ім\'я:</string>
+    <string name="detail_size">Розмір:</string>
+    <string name="detail_location">Шлях:</string>
+    <string name="detail_lastmodifiedtime">Час:</string>
+    <string name="detail_readable">Читання:</string>
+    <string name="detail_writable">Запис:</string>
+    <string name="detail_hidden">Приховані:</string>
+    <string name="title_detail">Приховані:</string>
+    <string name="computing">Обробка...</string>
+    <string name="currCategoryNoFile">Немає файлів у поточній категорії</string>
+    <string name="used_percent_default_text">Зайнято:</string>
+    <string name="gmail">Gmail</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="sms">SMS</string>
-    <string name="notrenameforyou">Имя не изменено</string>
-    <string name="loadingfiles">Загрузка.....Пожалуйста подождите</string>
+    <string name="notrenameforyou">Ім\'я не змінено</string>
+    <string name="loadingfiles">Завантаження..... Будь ласка зачекайте</string>
     <string name="position_dir">Папка</string>
-    <string name="position_category">Категории</string>
-    <string name="share">Отправить</string>
-    <string name="privacy_home">Личное</string>
-    <string name="move_to_privacy_box">Перем. в личное</string>
-    <string name="cancel_move">Отмена перемещения</string>
-    <string name="tab_privacy">Личное</string>
-    <string name="moving_to_privacy">Перемещение в личное...</string>
-    <string name="isloading">" Загрузка"</string>
-    <string name="target_name_is_not_allow_null">Имя не может быть пустым</string>
-    <string name="rename_fail">Имя содержит недопустимые символы</string>
-    <string name="sure">ok</string>
-    <string name="feedback_confirm">"Wifi в настоящее время недоступно.Одно изображение больше 300 кб,что вызовет некоторую плату за интернет-трафик.
+    <string name="position_category">Категорії</string>
+    <string name="share">Відіслати</string>
+    <string name="privacy_home">Приватне</string>
+    <string name="move_to_privacy_box">Перем. в приватне</string>
+    <string name="cancel_move">Скасування переміщення</string>
+    <string name="tab_privacy">Приватне</string>
+    <string name="moving_to_privacy">Переміщення в особисте...</string>
+    <string name="isloading">"Завантаження"</string>
+    <string name="target_name_is_not_allow_null">Ім\'я не може бути порожнім</string>
+    <string name="rename_fail">Ім\'я містить неприпустимі символи</string>
+    <string name="sure">гаразд</string>
+    <string name="feedback_confirm">"Wi-Fi в даний час недоступно.Одно зображення більше 300 кб, що викличе деяку плату за інтернет-трафік.
 
-Продолжить?"</string>
-    <string name="reminder">Напоминание</string>
+Продовжити? "</string>
+    <string name="reminder">Нагадування</string>
     <string name="directly_install">Установка</string>
-    <string name="appInstallStartTicker">Начало установки...</string>
+    <string name="appInstallStartTicker">Початок установки...</string>
     <string name="nowInstallingForYou">установка</string>
-    <string name="appInstallSuccessHint">Установлено</string>
-    <string name="appInstallFailureHint">Не установлено</string>
-    <string name="totalInstallFinishedHint">Установка приложения закончена.</string>
+    <string name="appInstallSuccessHint">Встановлено</string>
+    <string name="appInstallFailureHint">Не встановлено</string>
+    <string name="totalInstallFinishedHint">Встановлення програми закінчена.</string>
     <string name="installing">Установка</string>
-    <string name="success">Успешно:</string>
-    <string name="failure">Отказ:</string>
-    <string name="unhandled">Необработанные:</string>
-    <string name="toInstallSum">Все</string>
+    <string name="success">Успішно:</string>
+    <string name="failure">Відмова:</string>
+    <string name="unhandled">Необроблені:</string>
+    <string name="toInstallSum">Всі</string>
     <string name="already" />
-    <string name="theme">Темы</string>
-    <string name="available">Использовано</string>
-    <string name="sdcardhome">Карта памяти</string>
-    <string name="memory">Память</string>
-    <string name="scan_finish_toast">Обновление завершено</string>
-    <string name="scaning_toast">Сканирование категории %s</string>
-    <string name="scaning">Сканирование %s</string>
-    <string name="scan_finish_all_toast">Все категории обновлены</string>
-    <string name="up_to_date">Обновлено</string>
-    <string name="uninstalled">Неустановлено</string>
-    <string name="upgrade">Есть обновление</string>
-    <string name="installed">Установлено</string>
-    <string name="version">Версия :</string>
-    <string name="renaming">Обновление категорий, подождите</string>
-    <string name="unknown">Неизвестно</string>
-    <string name="copied">Карта памяти заполнена, скопировано: %s</string>
-    <string name="uncopied">Нескопировано: %s</string>
-    <string name="ringtone_clock">Установить как Сигнал будильника</string>
-    <string name="ringtone_sms">Установить как сигнал уведомления</string>
-    <string name="ringtone_comingcall">Установить как мелодию вызова</string>
-    <string name="ringtone_set">Установка рингтона</string>
-    <string name="ringtone_set_success">Рингтон установлен</string>
-    <string name="ifShowHiddenFile">Показывать скрытые файлы</string>
-    <string name="remember_my_choice">Запомнить мой выбор</string>
-    <string name="oneKeyCleanEmptyFolder">Один ключ удалит все пустые папки</string>
-    <string name="oneKeyCleanEmptyFolder_detail">Очистить все неиспользуемые пустые папки на карте памяти</string>
-    <string name="oneKeyCleanEmptyFolder_sure">Это позволит удалить все пустые папки на карте памяти, включая порожденные папки ext, вы уверены?</string>
-    <string name="oneKeyCleanEmptyFolder_result_hint">%s папок удалено!</string>
-    <string name="filtersize_pic_level">Больше %s</string>
-    <string name="setup">Установить</string>
-    <string name="music_default_album">Музыка</string>
-    <string name="music_unknown">Неизвестно</string>
-    <string name="music_album">Альбом</string>
-    <string name="music_artist">Исполнитель</string>
-    <string name="menu_file_sort">Сортировка файлов</string>
-    <string name="longtime_update">Понадобится немного времени для обновления %s. Пожалуйста, подождите</string>
-    <string name="detail_album">Альбом：</string>
-    <string name="detail_artist">Исполнитель：</string>
-    <string name="i_got_it">Готово</string>
-    <string name="cannt_find_matched_result">Ненайдено результатов</string>
-    <string name="menu_onekeyclean">Удалить пустые папки</string>
-    <string name="operate">Больше</string>
-    <string name="prefer_memory">В память телефона</string>
-    <string name="prefer_sdcard">На SD карту</string>
-    <string name="prefer_system">Мне все равно</string>
-    <string name="donot_show_it_again">Не показывать это снова</string>
-    <string name="setupto">Местоположение</string>
-    <string name="unexpectedlyStop">Неожиданная остановка установки</string>
-    <string name="cleanstarted">Очистка началась</string>
-    <string name="cleanfinished">Очистка завершена</string>
-    <string name="cleancount">%s папок удалено</string>
-    <string name="click_more_detail">Нажмите для просмотра инфо</string>
-    <string name="click_hide_detail">Скрыть детали</string>
-    <string name="show_hidden_file">Показать скрытые файлы</string>
-    <string name="file_name">Имя файла</string>
-    <string name="dont">Нет</string>
-    <string name="menu_my_pic_size">Размер изображения</string>
-    <string name="filter_pic_size">Фильровать изображения по размеру</string>
-    <string name="batch_install">Пакетная установка</string>
-    <string name="cancel_install">Отменить выбор</string>
-    <string name="directory">папка</string>
-    <string name="file">файл</string>
-    <string name="prohibetRepeatingExectuing">Файл устанавливается...подождите</string>
-    <string name="install_stoped_by_app_exit">Установка прервана</string>
-    <string name="category_all">Все</string>
-    <string name="category_apk">Софт</string>
-    <string name="category_document">Док-ты</string>
-    <string name="category_music">Музыка</string>
-    <string name="category_other">Другие</string>
-    <string name="category_picture">Фото</string>
-    <string name="category_theme">Темы</string>
-    <string name="category_video">Видео</string>
-    <string name="category_zip">Архивы</string>
-    <string name="confirm">OK</string>
-    <string name="confirm_know">OK</string>
-    <string name="error_info_cant_send_folder">Невозможно отправить папку</string>
-    <string name="fail_to_create_folder">Ошибка создания папки, уже существует</string>
-    <string name="fail_to_rename">Невозможно переименовать папку или файл, уже существует</string>
-    <string name="file_info_canread">Чтение:</string>
-    <string name="file_info_canwrite">Запись:</string>
-    <string name="file_info_ishidden">Скрытый:</string>
-    <string name="file_info_location">Путь:</string>
-    <string name="file_info_modified">Изменен:</string>
-    <string name="file_info_size">Размер:</string>
-    <string name="file_size">%d Байт</string>
-    <string name="install_failed">Установка не удалась</string>
-    <string name="install_successful">Успешно установлено</string>
-    <string name="menu_item_sort">Сортировка</string>
-    <string name="menu_item_sort_date">Дата</string>
-    <string name="menu_item_sort_name">Имя</string>
-    <string name="menu_item_sort_size">Размер</string>
-    <string name="menu_item_sort_type">Тип</string>
-    <string name="new_folder_name">Новая папка</string>
-    <string name="no_file">Нет файлов</string>
-    <string name="operation_cancel">Отмена</string>
-    <string name="operation_cancel_selectall">Отменить выбор</string>
-    <string name="operation_copy">Копировать</string>
-    <string name="operation_copy_path">Копировать путь</string>
-    <string name="operation_create_folder">Новая папка</string>
-    <string name="operation_create_folder_message">Введите имя папки</string>
-    <string name="operation_delete">Удалить</string>
-    <string name="operation_delete_confirm_message">Подтверждаете удаление?</string>
-    <string name="operation_hide_sys">Не показывать скрытые</string>
-    <string name="operation_info">Подробнее</string>
-    <string name="operation_move">Переместить</string>
-    <string name="operation_moving">Перемещение...</string>
-    <string name="operation_paste">Вставить</string>
-    <string name="operation_pasting">Вставка...</string>
-    <string name="operation_refresh">Обновить</string>
-    <string name="operation_rename">Переименовать</string>
-    <string name="operation_rename_message">Введите новое имя</string>
-    <string name="operation_selectall">Выбрать все</string>
-    <string name="operation_send">Отправить</string>
-    <string name="operation_show_sys">Показывать скрытые</string>
-    <string name="start_server">Запуск службы</string>
-    <string name="stop_server">Остановить службу</string>
-    <string name="storage_warning">Внешнее хранилище недоступно</string>
-    <string name="dialog_select_type">Выберите тип файла</string>
-    <string name="dialog_type_text">Текст</string>
-    <string name="dialog_type_audio">Аудио</string>
-    <string name="dialog_type_video">Видео</string>
-    <string name="dialog_type_image">Изображение</string>
-    <string name="multi_select_title">Выбрано %1$s элементов</string>
-    <string name="menu_setting">Настройки</string>
-    <string name="menu_exit">Выход</string>
-    <string name="preference_title">Общие настройки</string>
-    <string name="pref_primary_folder">Домашняя папка</string>
-    <string name="pref_read_root">Читать корень</string>
-    <string name="pref_show_real_path">Показывать реальный путь</string>
-    <string name="pref_primary_folder_summary">Папка, которая будет открываться при запуске приложения. Сейчас: %1$s</string>
-    <string name="pref_show_real_path_summary">Показывать реальный путь в строке статуса</string>
-    <string name="app_setting">Настройки поиска</string>
-    <string name="app_setting_info">Источник поиска</string>
-    <string name="app_setting_about">О программе</string>
-    <string name="system_app">Системное ПО</string>
-    <string name="user_app">Пользовательское ПО</string>
-    <string name="system_setting">Системные настройки</string>
-    <string name="web_search">Интернет поиск</string>
-    <string name="app_search">Поиск приложений</string>
-    <string name="enter_app_error_prefix">Приложение</string>
-    <string name="enter_app_error_suffix">не удалось открыть</string>
-    <string name="web_search_prefix">"Поиск в Интернет "</string>
-    <string name="web_search_suffix">" Связанная информация"</string>
-    <string name="app_search_prefix">"Поиск в Интернет "</string>
-    <string name="app_search_suffix">" Связанные приложения"</string>
-    <string name="select_browser">Выбор браузера для поиска</string>
-    <string name="choose_browser">Выберите браузер</string>
-    <string name="info_setting_message">Сообщение</string>
-    <string name="info_setting_message_str">Содержимое сообщения</string>
-    <string name="info_setting_app">Приложение</string>
-    <string name="info_setting_app_str">Установленные приложения</string>
+    <string name="theme">Теми</string>
+    <string name="available">Використано</string>
+    <string name="sdcardhome">Карта пам\'яті</string>
+    <string name="memory">Пам\'ять</string>
+    <string name="scan_finish_toast">Оновлення завершено</string>
+    <string name="scaning_toast">Сканування категорії %s</string>
+    <string name="scaning">Сканування %s</string>
+    <string name="scan_finish_all_toast">Всі категорії оновлені </string>
+    <string name="up_to_date">Оновлено
+</string>
+    <string name="uninstalled">Неустановлено
+</string>
+    <string name="upgrade">Є оновлення
+</string>
+    <string name="installed">Встановлено
+</string>
+    <string name="version">Версія:
+</string>
+    <string name="renaming">Оновлення категорій, почекайте
+</string>
+    <string name="unknown">Невідомо
+</string>
+    <string name="copied">Карта пам\'яті заповнена, скопійовано: %s
+</string>
+    <string name="uncopied">Нескопіровано: %s
+</string>
+    <string name="ringtone_clock">Встановити як Сигнал будильника
+</string>
+    <string name="ringtone_sms">Встановити як сигнал повідомлення
+</string>
+    <string name="ringtone_comingcall">Встановити як мелодію виклику
+</string>
+    <string name="ringtone_set">Установка рінгтона
+</string>
+    <string name="ringtone_set_success">Рінгтон встановлений
+</string>
+    <string name="ifShowHiddenFile">Показувати приховані файли
+</string>
+    <string name="remember_my_choice">Запам\'ятати мій вибір
+</string>
+    <string name="oneKeyCleanEmptyFolder">Один ключ видалить всі порожні папки
+</string>
+    <string name="oneKeyCleanEmptyFolder_detail">Очистити всі невживані порожні папки на карті пам\'яті
+</string>
+    <string name="oneKeyCleanEmptyFolder_sure">Це дозволить видалити всі порожні папки на карті пам\'яті, включаючи породжені папки доб, ви впевнені?
+</string>
+    <string name="oneKeyCleanEmptyFolder_result_hint">%s папок видалено! </string>
+    <string name="filtersize_pic_level">Більше %s </string>
+    <string name="setup">Встановити
+</string>
+    <string name="music_default_album">Музика
+</string>
+    <string name="music_unknown">Невідомо
+</string>
+    <string name="music_album">Альбом
+</string>
+    <string name="music_artist">Виконавець
+</string>
+    <string name="menu_file_sort">Сортування файлів
+</string>
+    <string name="longtime_update">Знадобиться трохи часу для оновлення %s. Будь ласка, почекайте
+</string>
+    <string name="detail_album">Альбом:
+</string>
+    <string name="detail_artist">Виконавець:
+</string>
+    <string name="i_got_it">Готово
+</string>
+    <string name="cannt_find_matched_result">Ненайдено результатів
+</string>
+    <string name="menu_onekeyclean">Видалити порожні папки
+</string>
+    <string name="operate">Більше
+</string>
+    <string name="prefer_memory">У пам\'ять телефону
+</string>
+    <string name="prefer_sdcard">На SD карту
+</string>
+    <string name="prefer_system">Мені все одно
+</string>
+    <string name="donot_show_it_again">Не показувати це знову
+</string>
+    <string name="setupto">Місцезнаходження
+</string>
+    <string name="unexpectedlyStop">Несподівана зупинка установки
+</string>
+    <string name="cleanstarted">Очищення почалася
+</string>
+    <string name="cleanfinished">Очищення завершено
+</string>
+    <string name="cleancount">%s папок видалено
+</string>
+    <string name="click_more_detail">Натисніть для перегляду інфо
+</string>
+    <string name="click_hide_detail">Сховати деталі
+</string>
+    <string name="show_hidden_file">Показати приховані файли
+</string>
+    <string name="file_name">Ім\'я файлу
+</string>
+    <string name="dont">Немає
+</string>
+    <string name="menu_my_pic_size">Розмір зображення
+</string>
+    <string name="filter_pic_size">Нефільтроване зображення за розміром
+</string>
+    <string name="batch_install">Пакетна установка
+</string>
+    <string name="cancel_install">Відмінити вибір
+</string>
+    <string name="directory">папка
+</string>
+    <string name="file">файл
+</string>
+    <string name="prohibetRepeatingExectuing">Файл встановлюється зачекайте...
+</string>
+    <string name="install_stoped_by_app_exit">Установка перервана
+</string>
+    <string name="category_all">Всі
+</string>
+    <string name="category_apk">Софт
+</string>
+    <string name="category_document">Док-ти
+</string>
+    <string name="category_music">Музика
+</string>
+    <string name="category_other">Інші
+</string>
+    <string name="category_picture">Фото
+</string>
+    <string name="category_theme">Теми
+</string>
+    <string name="category_video">Відео
+</string>
+    <string name="category_zip">Архіви
+</string>
+    <string name="confirm">Гаразд
+</string>
+    <string name="confirm_know">Гаразд
+</string>
+    <string name="error_info_cant_send_folder">Неможливо відправити папку
+</string>
+    <string name="fail_to_create_folder">Помилка створення папки, вже існує
+</string>
+    <string name="fail_to_rename">Неможливо перейменувати папку або файл, вже існує
+</string>
+    <string name="file_info_canread">Читання:
+</string>
+    <string name="file_info_canwrite">Запис:
+</string>
+    <string name="file_info_ishidden">Прихований:
+</string>
+    <string name="file_info_location">Шлях:
+</string>
+    <string name="file_info_modified">Изменен:
+</string>
+    <string name="file_info_size">Розмір:
+</string>
+    <string name="file_size">%d Байт
+</string>
+    <string name="install_failed">Установка не вдалася
+</string>
+    <string name="install_successful">Успішно встановлено
+</string>
+    <string name="menu_item_sort">Сортування
+</string>
+    <string name="menu_item_sort_date">Дата
+</string>
+    <string name="menu_item_sort_name">Ім\'я
+</string>
+    <string name="menu_item_sort_size">Розмір
+</string>
+    <string name="menu_item_sort_type">Тип
+</string>
+    <string name="new_folder_name">Нова папка
+</string>
+    <string name="no_file">Немає файлів
+</string>
+    <string name="operation_cancel">Скасування
+</string>
+    <string name="operation_cancel_selectall">Відмінити вибір
+</string>
+    <string name="operation_copy">Копіювати
+</string>
+    <string name="operation_copy_path">Копіювати шлях
+</string>
+    <string name="operation_create_folder">Нова папка
+</string>
+    <string name="operation_create_folder_message">Введіть ім\'я папки
+</string>
+    <string name="operation_delete">Видалити
+</string>
+    <string name="operation_delete_confirm_message">Підтверджуєте видалення?
+</string>
+    <string name="operation_hide_sys">Не показувати приховані
+</string>
+    <string name="operation_info">Детальніше
+</string>
+    <string name="operation_move">Перемістити
+</string>
+    <string name="operation_moving">Переміщення...
+</string>
+    <string name="operation_paste">Вставити
+</string>
+    <string name="operation_pasting">Вставка...
+</string>
+    <string name="operation_refresh">Оновити
+</string>
+    <string name="operation_rename">Перейменувати
+</string>
+    <string name="operation_rename_message">Введіть нове ім\'я
+</string>
+    <string name="operation_selectall">Вибрати всі
+</string>
+    <string name="operation_send">Відіслати
+</string>
+    <string name="operation_show_sys">Показувати приховані
+</string>
+    <string name="start_server">Запуск служби
+</string>
+    <string name="stop_server">Зупинити службу
+</string>
+    <string name="storage_warning">Зовнішнє сховище недоступне
+</string>
+    <string name="dialog_select_type">Виберіть тип файлу
+</string>
+    <string name="dialog_type_text">Текст
+</string>
+    <string name="dialog_type_audio">Аудіо
+</string>
+    <string name="dialog_type_video">Відео
+</string>
+    <string name="dialog_type_image">Зображення
+</string>
+    <string name="multi_select_title">Обрано %1$s елементів
+</string>
+    <string name="menu_setting">Налаштування
+</string>
+    <string name="menu_exit">Вихід
+</string>
+    <string name="preference_title">Загальні настройки
+</string>
+    <string name="pref_primary_folder">Домашня папка
+</string>
+    <string name="pref_read_root">Читати корінь
+</string>
+    <string name="pref_show_real_path">Показувати реальний шлях
+</string>
+    <string name="pref_primary_folder_summary">Папка, яка буде відкриватися при запуску додатка. Зараз: %1$s
+</string>
+    <string name="pref_show_real_path_summary">Показувати реальний шлях в рядку статусу
+</string>
+    <string name="app_setting">Налаштування пошуку
+</string>
+    <string name="app_setting_info">Джерело пошуку
+</string>
+    <string name="app_setting_about">Про програму
+</string>
+    <string name="system_app">Системне ПЗ
+</string>
+    <string name="user_app">Користувальницьке ПО
+</string>
+    <string name="system_setting">Системні налаштування
+</string>
+    <string name="web_search">Інтернет пошук
+</string>
+    <string name="app_search">Пошук додатків
+</string>
+    <string name="enter_app_error_prefix">Додаток
+</string>
+    <string name="enter_app_error_suffix">не вдалося відкрити
+</string>
+    <string name="web_search_prefix">"Пошук в Інтернет"</string>
+    <string name="web_search_suffix">"Зв'язана інформація"</string>
+    <string name="app_search_prefix">"Пошук в Інтернет"</string>
+    <string name="app_search_suffix">"Пов'язані додатка"</string>
+    <string name="select_browser">Вибір браузера для пошуку</string>
+    <string name="choose_browser">Вибрати браузер</string>
+    <string name="info_setting_message">Повідомлення</string>
+    <string name="info_setting_message_str">Вміст повідомлення</string>
+    <string name="info_setting_app">Додаток</string>
+    <string name="info_setting_app_str">Встановлені програми</string>
     <string name="info_setting_image">Картинка</string>
-    <string name="info_setting_image_str">Изображение</string>
+    <string name="info_setting_image_str">Зображення</string>
     <string name="info_setting_contact">Контакт</string>
-    <string name="info_setting_contact_str">Информация о контакте</string>
-    <string name="info_setting_music">Плеер</string>
-    <string name="info_setting_music_str">Музыкальные файлы</string>
-    <string name="info_setting_setting">Настройки системы</string>
-    <string name="info_setting_setting_str">Информация о приложении</string>
-    <string name="info_setting_file">Локальные</string>
-    <string name="info_setting_file_str">Другие локальные файлы</string>
-    <string name="no_default_browser">Нет браузера по умолчанию</string>
-    <string name="rom_size">Всего: %1$s</string>
+    <string name="info_setting_contact_str">Інформація про контакт</string>
+    <string name="info_setting_music">Плеєр</string>
+    <string name="info_setting_music_str">Музичні файли</string>
+    <string name="info_setting_setting">Налаштування системи</string>
+    <string name="info_setting_setting_str">Інформація про додатку</string>
+    <string name="info_setting_file">Локальні</string>
+    <string name="info_setting_file_str">Інші локальні файли</string>
+    <string name="no_default_browser">Ні браузера за замовчуванням</string>
+    <string name="rom_size">Всього: %1$s</string>
     <string name="rom_available">Доступно: %1$s</string>
-    <string name="sd_card_size">SD (всего):%1$s</string>
-    <string name="sd_card_available">SD (доступно):%1$s</string>
-    <string name="external_sd_card_size">SD Card: %1$s</string>
-    <string name="external_sd_card_available">Available: %1$s</string>
-    <string name="internal_sd_card_size">Внутренняя (всего):%1$s</string>
-    <string name="internal_sd_card_available">Внутренняя (дост.):%1$s</string>
-    <string name="hide_file">Скрыть файлы</string>
-    <string name="file_doesnt_exist">Файл не существует</string>
-    <string name="file_deleted">Deleted</string>
-    <string name="file_pasted">Pasted</string>
-    <string name="menu_select_sdcard">SD Card filter</string>
-    <string name="menu_show_internal_sdcard">Only show Internal Storage files</string>
-    <string name="menu_show_external_sdcard">Only show SDcard files</string>
-    <string name="menu_show_all_sdcard">Show All SDcard files</string>
-    <string name="tab_builtInsdcardlist">Внутренняя SD карта</string>
-    <string name="tab_externalsdcardlist">Внешняя SD карта</string>
+    <string name="sd_card_size">SD (всього): %1$s</string>
+    <string name="sd_card_available">SD (доступно): %1$s</string>
+    <string name="external_sd_card_size">SD-карта: %1$s</string>
+    <string name="external_sd_card_available">Доступно: %1$s</string>
+    <string name="internal_sd_card_size">Внутрішня (всього): %1$s</string>
+    <string name="internal_sd_card_available">Внутрішня (дост.): %1$s</string>
+    <string name="hide_file">Сховати файли</string>
+    <string name="file_doesnt_exist">Файл не існує</string>
+    <string name="file_deleted">Віддалений</string>
+    <string name="file_pasted">Вставлено</string>
+    <string name="menu_select_sdcard">SD Card фільтр</string>
+    <string name="menu_show_internal_sdcard">Тільки внутрішнього зберігання файлів</string>
+    <string name="menu_show_external_sdcard">Тільки SDcard файлів</string>
+    <string name="menu_show_all_sdcard">Показати всі файли SDcard</string>
+    <string name="tab_builtInsdcardlist">Внутрішня SD карта</string>
+    <string name="tab_externalsdcardlist">Зовнішня SD карта</string>
     <string name="sdcard">SD карта</string>
-    <string name="built_in_sdcard">Внутренняя SD карта</string>
-    <string name="external_sdcard">Внешняя SD карта</string>
-    <string name="hint_findFiles">Look for files</string>
-    <string name="category_all_apk">All Apks</string>
-    <string name="category_all_document">All Documents</string>
-    <string name="category_all_music">All Music</string>
-    <string name="category_all_picture">All Pictures</string>
-    <string name="category_all_theme">All Themes</string>
-    <string name="category_all_video">All Videos</string>
-    <string name="theme_path">LEWA/theme</string>
-    <string name="apk_installed">Installed</string>
-    <string name="apk_uninstalled">Uninstalled</string>
-    <string name="apk_installed_update">Update</string>
-    <string name="apk_version">Version:</string>
-    <string name="apk_installed_unknown">Unknow Status</string>
-    <string name="apk_version_unknown">Unknow Version</string>
-    <string name="operation_cleaning">Cleaning...</string>
-    <string name="filtersize_pic_title">Filter pictures by sizes</string>
-    <string name="atleast">больше чем</string>
+    <string name="built_in_sdcard">Внутрішня SD карта</string>
+    <string name="external_sdcard">Зовнішня SD карта</string>
+    <string name="hint_findFiles">Шукайте файли</string>
+    <string name="category_all_apk">Всі Apks</string>
+    <string name="category_all_document">Всі документи</string>
+    <string name="category_all_music">Вся музика</string>
+    <string name="category_all_picture">Всі картинки</string>
+    <string name="category_all_theme">Всі теми</string>
+    <string name="category_all_video">Все відео</string>
+    <string name="theme_path">LEWA/теми</string>
+    <string name="apk_installed">Встановлено</string>
+    <string name="apk_uninstalled">Вилучено</string>
+    <string name="apk_installed_update">Оновіть</string>
+    <string name="apk_version">Версія:</string>
+    <string name="apk_installed_unknown">Невідомий статус</string>
+    <string name="apk_version_unknown">Невідомий версія</string>
+    <string name="operation_cleaning">Очищення...</string>
+    <string name="filtersize_pic_title">Фільтр картини розмірах</string>
+    <string name="atleast">більше ніж</string>
     <string name="upperthan">K</string>
-    <string name="filtersize_pic_summary">Filter pictures by sizes</string>
+    <string name="filtersize_pic_summary">Фільтр картинок по розмірах</string>
     <string name="filtersize_pic_preference">0</string>
-    <string name="pic_exceed_max">The size exceed the max value.</string>
-    <string name="size_index_01">Less than 500KB</string>
-    <string name="size_index_02">500KB - 1MB</string>
+    <string name="pic_exceed_max">Розмір перевищує максимальне значення.</string>
+    <string name="size_index_01">Менше 500КБ</string>
+    <string name="size_index_02">500КБ - 1МБ</string>
     <string name="size_index_03">1MB - 5MB</string>
-    <string name="size_index_04">5MB – 10MB</string>
-    <string name="size_index_05">Larger than 10MB</string>
-    <string name="date_index_01">Today</string>
-    <string name="date_index_02">Yesterday</string>
-    <string name="date_index_03">In one week</string>
-    <string name="date_index_04">In one month</string>
-    <string name="date_index_05">Much earlier</string>
-    <string name="name_index_head">\#</string>
-    <string name="name_index_tail">Other</string>
-    <string name="space_limit">Storage is not enough for Pasting</string>
-    <string name="file_info_status">Status</string>
-    <string name="notif_server_starting">FTP сервер запущен</string>
+    <string name="size_index_04">5МБ - 10МБ</string>
+    <string name="size_index_05">Більше, ніж 10МБ</string>
+    <string name="date_index_01">Сьогодні</string>
+    <string name="date_index_02">Вчора</string>
+    <string name="date_index_03">Протягом одного тижня</string>
+    <string name="date_index_04">За один місяць</string>
+    <string name="date_index_05">Набагато раніше</string>
+    <string name="name_index_head">\ #</string>
+    <string name="name_index_tail">Інший</string>
+    <string name="space_limit">Не достатньо сховища для вставки</string>
+    <string name="file_info_status">Статус</string>
+    <string name="notif_server_starting">FTP сервер запущений</string>
     <string name="notif_title">FTP серве</string>
-    <string name="totalInstallStoppedHint">安装中止</string>
+    <string name="totalInstallStoppedHint">Установка скасована</string>
 </resources>

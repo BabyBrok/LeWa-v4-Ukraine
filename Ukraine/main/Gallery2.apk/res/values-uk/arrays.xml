@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="proxy_error">
-        <item>Адресное поле не может быть пустым</item>
-        <item>Поле порта не может быть пустым</item>
-        <item>Неверный адрес</item>
-        <item>Неверный порт</item>
+        <item>Адресне поле не може бути порожнім</item>
+        <item>Поле порту не може бути порожнім</item>
+        <item>Невірна адреса</item>
+        <item>Невірний порт</item>
     </string-array>
 </resources>

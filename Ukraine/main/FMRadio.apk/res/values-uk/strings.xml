@@ -69,7 +69,7 @@
     <string name="add_favorite_station">Додати</string>
     <string name="delete_station_confirm">Видалити станцію?</string>
     <string name="delete_station_title">Видалити станцію</string>
-    <string name="empty_text">натисніть нижче кнопку для пошуку станції</string>
+    <string name="empty_text">Натисніть нижче кнопку для автоматичного пошуку станції</string>
     <string name="accurate_change_frequency_title">Вибрати частоту</string>
     <string name="accurate_change_frequency_hint">Частота вхідного сигналу для прослуховування (МГц)</string>
     <string name="input_frequency_error">Помилка, введіть в діапозоні 87,5 ~ 108,0</string>

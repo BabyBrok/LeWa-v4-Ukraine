@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="status_bar_clear_all_button">Очистить все</string>
-    <string name="notifications_off_title">Функция уведомление была отключена</string>
-    <string name="notifications_off_text">Нажмите здесь, чтобы включить функцию уведомления</string>
+    <string name="status_bar_clear_all_button">Очистити все</string>
+    <string name="notifications_off_title">Функція повідомлень була відключена</string>
+    <string name="notifications_off_text">Натисніть тут, щоб увімкнути функцію повідомлень</string>
 </resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selectNone">Скасування</string>
+    <string name="config_deviceKeyHandlerLib" />
+    <string name="config_deviceKeyHandlerClass" />
+    <string name="reboot_system">Перезавантаження телефону</string>
+    <string name="global_action_screenshot">Знімок екрана</string>
+    <string name="global_action_toggle_silent_mode">Режим без звуку</string>
+    <string name="global_action_screenshot_status">Натисніть одночасно Живлення і Гучність вниз для зняття скріншота</string>
+    <string name="reboot_reboot">Перезавантаження</string>
+    <string name="reboot_recovery">Рекавері</string>
+    <string name="reboot_bootloader">Завантажувач</string>
+    <string name="reboot_bootmenu">Завантажувальне меню</string>
+    <string name="reboot_fastboot">Швидке завантаження</string>
+    <string name="reboot_download">Завантаження</string>
+    <string name="reboot_progress">Перезавантаження...</string>
+    <string name="reboot_confirm">Ваш телефон перезавантажиться.</string>
+    <string name="global_action_reboot">Перезавантаження</string>
+    <string name="lockscreen_discharging">Батарея (%d%%)</string>
+    <string name="progress_scanning">Сканую</string>
+    <string name="phone_goggles_problem_count">Проблема #%1$d:
+</string>
+    <string name="phone_goggles_description">Рішення %1$d наступної проблеми займе менше %2$d секунд, потім продовжите спілкування.</string>
+    <string name="permlab_revokePermissions">Дозволяє переглядати і редагувати анульовані дозволи. Не для використання звичайними додатками.</string>
+    <string name="permdesc_revokePermissions">Дозволяє читати і писати скасовані дозволу. Не для використання звичайними додатками.</string>
+    <string name="app_killed_message">Додаток закрито</string>
+    <string name="back_killed_message">закрито</string>
+    <string name="lock_screen_miss_call">%1$d пропущений дзвінок</string>
+    <string name="lock_screen_new_msg">%1$d нове повідомлення</string>
+    <string name="lock_screen_miss_calls">%1$d пропущених дзвінків</string>
+    <string name="lock_screen_new_msgs">%1$d нових повідомлень</string>
+    <string name="lock_screen_drag_down">Потягніть вниз для розблокування</string>
+    <string name="lock_screen_drag_here">Потягніть сюди для розблокування</string>
+    <string name="lock_screen_dismiss">Відхилити</string>
+    <string name="lock_screen_snooze">Сон</string>
+    <string name="lock_screen_pm">PM</string>
+    <string name="lock_screen_am">AM</string>
+    <string name="fixed_line">Фіксована</string>
+    <string name="ringtone_custom">Звичайна...</string>
+    <string name="ringtone_silent_summary">Тихий</string>
+    <string name="data_usage_warning_body">Обережно, тільки %s залишилося від пакета даних оператора.</string>
+</resources>

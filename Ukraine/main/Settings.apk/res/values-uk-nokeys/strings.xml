@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="applications_settings_summary">Керування програмами</string>
-    <item type="string" name="APKTOOL_DUMMY_0908">false</item>
-    <item type="string" name="APKTOOL_DUMMY_0909">false</item>
-    <item type="string" name="APKTOOL_DUMMY_090a">false</item>
 </resources>

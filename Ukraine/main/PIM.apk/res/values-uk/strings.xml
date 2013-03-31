@@ -1344,35 +1344,35 @@
     <string name="prefs_ims_close_title_summary">Включіть для безкоштовних смс, фото, голосових і відео повідомлень</string>
     <string name="prefs_ims_aout_to_sms_mode">Пересилати по SMS</string>
     <string name="prefs_ims_aout_to_sms_summary_mode">Автоматично пересилати безкоштовні повідомлення по SMS якщо немає доступу до мережі.</string>
-    <string name="message_ims_user_service_info">"免费信息服务用户协议
+    <string name="message_ims_user_service_info">"Free information service user agreement
 
-一、本《协议》授予您下列权利：
+One, the agreement to grant you the following rights:
 
-安装和使用：
+Installation and use:
 
-您可以复制、分发和传播无限制数量的软件产品，但您必须保证每一份复制、分发和传播都必须是完整和真实的，包括所有有关本软件产品的软件、电子文档，版权和商标宣言，亦包括本协议。
+You can copy, distribute and disseminate an unlimited number of software products, but you must ensure that each reproduction, distribution and dissemination must be true and complete, including all software products on this software, electronic documents, copyright and trademark notices, also including this agreement.
 
-二、费用说明：
+Two, costs:
 
-您必须自行负担个人上网或第三方（包括但不限于电信或移动通讯提供商）收取的通讯费、信息费等相关费用。如涉及电信增值服务，我们建议您与增值服务提供商确认相关费用问题。任何本软件的更新版本、更新以及其他变更将受到本协议约束。
+You must pay personal Internet or third party ( including but not limited to, telecommunications or mobile communication provider ) communication charge fee, fee information and other related costs. As related to value-added telecom services, we recommend you and value-added service provider to confirm the related costs. Any of the software update, update and other change will be the subject of this agreement.
 
-三、隐私保护
+Three, privacy protection
 
-保护用户隐私是免费信息服务一项基本政策，保证不对外公开或向第三方提供单个用户的注册资料及用户在使用网络服务时的非公开内容，但下列情况除外：
+To protect user privacy is a free information service is a basic policy, ensure not open to the public or to the third party to provide a single user registration information and users in the use of network services non-public content, except in the following situations:
 
-事先获得用户的明确授权；
+Prior to obtaining the clear authorization of user;
 
-根据有关的法律法规要求；
+According to the relevant laws and regulations;
 
-按照相关政府主管部门的要求；
+In accordance with the relevant government departments in charge of the requirements;
 
-为维护社会公众的利益；
+In order to safeguard the public interest;
 
-为维护乐蛙的合法权益。
+To safeguard the legitimate rights and interests of a letter.
 
-在不透露单个用户隐私资料的前提下，有权对整个用户数据库进行分析并对用户数据库进行商业上的利用。
+In the disclosed single user privacy under the premise, has the right to the user database are analyzed and the user database for commercial use.
 
-四、开通免费信息服务需要向服务器发送一条短信以完成注册，资费同普通短信，由运营商收取，乐蛙不收取任何费用。"</string>
+In four, the opening of free information service needs to send a message to the server to complete the registration fee, with ordinary SMS messages, by charge carriers, Le frog does not charge any fees."</string>
     <string name="message_ims_user_service_message_info">Безкоштовна інформаційна служба є більш потужним, ніж звичайні інформації, Домофон чат мережі легко з онлайн-контакти, текстові чати, заощадити гроші для відправки фотографій та інших мультимедійних інформаційних і комунікаційних досвід необмежену задоволення.</string>
     <string name="message_ims_user_service_open">Приєднатися</string>
     <string name="message_ims_user_service_to_later">Пізніше</string>

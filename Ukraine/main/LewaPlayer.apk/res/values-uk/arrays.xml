@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="download_method">
-        <item>Только WiFi</item>
-        <item>Разрешить все</item>
+        <item>Тільки WiFi</item>
+        <item>Дозволити всі</item>
     </string-array>
     <string-array name="eq_genres">
-        <item>None</item>
-        <item>Common</item>
-        <item>Classical</item>
-        <item>dance</item>
-        <item>folk music</item>
-        <item>heavy metal</item>
-        <item>hip hop</item>
-        <item>jazz</item>
-        <item>Pop</item>
-        <item>Rock</item>
-        <item>Custom</item>
+        <item>Жоден</item>
+        <item>Поширений</item>
+        <item>Класичний</item>
+        <item>Танцювальний</item>
+        <item>Народна музика</item>
+        <item>Хеві-метал</item>
+        <item>Хіп-хоп</item>
+        <item>Джаз</item>
+        <item>Поп</item>
+        <item>Рок</item>
+        <item>Клієнтський</item>
     </string-array>
     <string-array name="bg_choise">
-        <item>Мечта</item>
-        <item>Капли</item>
-        <item>Сумерки</item>
-        <item>Янтарь</item>
+        <item>Мрія</item>
+        <item>Краплі</item>
+        <item>Сутінки</item>
+        <item>Янтар</item>
     </string-array>
 </resources>

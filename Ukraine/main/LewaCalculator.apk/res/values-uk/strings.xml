@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Калькулятор</string>
-    <string name="error">Ошибка</string>
+    <string name="error">Помилка</string>
     <string name="digit0">0</string>
     <string name="digit1">1</string>
     <string name="digit2">2</string>
@@ -16,7 +16,7 @@
     <string name="div">÷</string>
     <string name="mul">×</string>
     <string name="plus">+</string>
-    <string name="minus">−</string>
+    <string name="minus">-</string>
     <string name="dot">.</string>
     <string name="equal">=</string>
     <string name="sin">sin</string>
@@ -31,11 +31,11 @@
     <string name="sqrt">√</string>
     <string name="power">^</string>
     <string name="factorial">!</string>
-    <string name="basic">Основная панель</string>
-    <string name="advanced">Расширенная панель</string>
-    <string name="clear_history">Очистить историю</string>
-    <string name="text_copied_toast">Текст скопирован</string>
+    <string name="basic">Основна панель</string>
+    <string name="advanced">Розширена панель</string>
+    <string name="clear_history">Очистити історію</string>
+    <string name="text_copied_toast">Текст скопійований</string>
     <string name="goback">Назад</string>
-    <string name="advance">Расширенный</string>
-    <string name="history">История</string>
+    <string name="advance">Розширений</string>
+    <string name="history">Історія</string>
 </resources>
