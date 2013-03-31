@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS "android_metadata";
+CREATE TABLE android_metadata (locale TEXT);
+INSERT INTO "android_metadata" VALUES('uk_UA');
+DROP TABLE IF EXISTS "special_phone";
+CREATE TABLE `special_phone` (
+  `_id` Integer PRIMARY KEY  autoincrement,
+  `number` int(11) default NULL,
+  `location` varchar(20) default NULL
+, logo text);
+INSERT INTO "special_phone" VALUES(1,103,'Швидка допомога','');
