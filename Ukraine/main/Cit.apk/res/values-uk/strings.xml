@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="generateLog">вихідні Log</string>
+    <string name="toast_log_generated">Отриманий лог файл %s відправте розробнику, щоб вирішити проблему</string>
+    <string name="to_sdcard">/sdcard/logcat.log</string>
+    <string name="to_data">/data/logcat.log</string>
+    <string name="make_sure">Переконайтеся, що вихідний файл %s?</string>
+    <string name="alert">Запитати</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Припинити</string>
+    <string name="logcat">Висновок журналу</string>
+    <string name="config_view">Налаштування повідомлень</string>
+    <string name="cit">Інженерний режим</string>
+    <string name="sdcard_inexist">SD-карта не існує, вставте карту SD</string>
+    <string name="sdcard_is_full">Нет места</string>
+    <string name="out_to_sdcard">Вихід на SD карту</string>
+    <string name="sum_out_to_sdcard">Виведення файлу журналу у %s</string>
+    <string name="out_to_data">Вихідні на каталог з даними</string>
+    <string name="sum_out_to_data">Виведення файлу журналу у %s</string>
+    <string name="out_to_spec_localtion">Висновок журналу у вказане місце</string>
+    <string name="out_rec_log">Вихід журналу recovery</string>
+    <string name="sum_out_rec_log">І буде rec_log вихід у вказане місце</string>
+    <string name="config_info_view">Налаштування повідомлень</string>
+    <string name="sum_config_info_view">Інформація про конфігурацію системи</string>
+    <string name="development_tools">Інструм. розробника</string>
+    <string name="sum_dev_tools">Розробка і тестування інструментів</string>
+    <string name="spare_parts">Додаткові частини</string>
+    <string name="sum_spare_parts">Додаткові процедури випробувань</string>
+    <string name="about_app">Про застосування</string>
+    <string name="sum_about_app">Введення в Application Information</string>
+    <string name="version">Версія</string>
+    <string name="date">Дата</string>
+    <string name="menu_upload_exceptions">Upload Exceptions</string>
+    <string name="menu_clear_exceptions">Clear Exceptions</string>
+    <string name="phonetest_summary">Відображає стан телефону і SIM-карти</string>
+    <string name="phonetest_title">Стан телефону</string>
+</resources>

@@ -1,126 +1,284 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="virus_defense_title">Антивирус</string>
-    <string name="viruskill_title">Антивирус</string>
-    <string name="viruskill_log_title">Журнал антивируса</string>
-    <string name="permession_manage_title">Управление доступом</string>
-    <string name="check_database_update">Проверка обновлений</string>
-    <string name="delete">Удалить</string>
-    <string name="install_monitor">Установить монитор</string>
-    <string name="timer_scan">Сканирование по расписанию</string>
+    <string name="virus_defense_title">Антивірус</string>
+    <string name="viruskill_title">Антивірус</string>
+    <string name="viruskill_log_title">Журнал антивіруса</string>
+    <string name="permession_manage_title">Управління доступом</string>
+    <string name="check_database_update">Перевірка оновлень</string>
+    <string name="delete">Видалити</string>
+    <string name="install_monitor">Встановити монітор</string>
+    <string name="timer_scan">Сканування за розкладом</string>
     <string name="omission">Скоро</string>
-    <string name="logo_notice">Powered by Tencent Mobile Manager</string>
-    <string name="select">выбранные</string>
-    <string name="first_use1">Ваш телефон не был проверен</string>
-    <string name="first_use2">Пожалуйста запустите сканирование прямо сейчас</string>
-    <string name="state_normal">Сканирование по расписанию предотвратит телефон от вирусов.</string>
-    <string name="need_to_kill1">Ваш телефон не был проверен %s дня(-ней)</string>
-    <string name="need_to_kill2">Пожалуйста, запустите сканирование прямо сейчас</string>
-    <string name="is_cancel1">Предлагаем пересканировать</string>
-    <string name="is_cancel2">Сканирование отменено, безопасность телефон не подтверждена</string>
-    <string name="scanner_title">Сканировать телефон</string>
+    <string name="logo_engine">Дворецький телефон Tencent вбивства двигуна</string>
+    <string name="logo_notice">Працює на Tencent Mobile Manager</string>
+    <string name="select">вибрані</string>
+    <string name="first_use1">Ваш телефон не був перевірений</string>
+    <string name="first_use2">Будь ласка запустіть сканування зараз</string>
+    <string name="state_normal">Сканування за розкладом допоможе захистити телефон від вірусів.</string>
+    <string name="need_to_kill1">Ваш телефон не був перевірений %s дні (-ів)</string>
+    <string name="need_to_kill2">Будь ласка, запустіть сканування зараз</string>
+    <string name="is_cancel1">Пропонуємо пересканіровать</string>
+    <string name="is_cancel2">Сканування скасовано, безпека телефон не підтверджена</string>
+    <string name="scanner_title">Сканувати телефон</string>
     <string name="init_scan">0%</string>
-    <string name="gap_notice">Просканировано %s назад</string>
-    <string name="gap_error_notice">Прошлое сканирование: %s</string>
-    <string name="scan_just_now">Просканировано только что</string>
-    <string name="defense_monitor_open">Монитор запущен</string>
-    <string name="defense_monitor_close1">Монитор запущен частично</string>
-    <string name="defense_monitor_close2">Неполная защита</string>
-    <string name="scan_counts">Проверено: </string>
-    <string name="scan_time">Время: </string>
-    <string name="viruse_counts">Заражено: </string>
-    <string name="caution_counts">Подозрительных:</string>
-    <string name="scan_continue">Продолжать сканирование</string>
-    <string name="scan_cancel">Отмена сканирования</string>
-    <string name="scan_pause">Приостановить сканирование</string>
-    <string name="scan_pause_log">Сканирование уже приостановлено</string>
-    <string name="scan_finish">Завершить</string>
-    <string name="clear_now">Очистить сейчас</string>
-    <string name="scan_warm_tips">Подсказка</string>
-    <string name="scan_dialog_content">Сканирование не завершено, вы уверены, что хотите остановить проверку?</string>
-    <string name="scan_of_clound">Сканирование в облаке</string>
-    <string name="scan_state_safe">Сканирование завершено, ваш телефон в безопасности</string>
-    <string name="scan_state_risk">Он находится в опасности, пожалуйста запустите сканирование сейчас.</string>
-    <string name="scan_state_cloud_fail">Сканирование было завершено, проверка в облаке</string>
-    <string name="scan_result_Congratulate">Поздравления</string>
-    <string name="scan_result_tips">Бесплатный антивирус следит за вашим телефоном.</string>
-    <string name="scan_result_suggestion">Tip:Remove</string>
-    <string name="scan_result_suggestion_del">Tip:Del</string>
-    <string name="scan_virus_soft">Заражен</string>
-    <string name="scan_caution_soft">Программное обеспечение под угрозой</string>
-    <string name="defense_notification">Напоминать о защите от вирусов</string>
-    <string name="defense_risk_notification">Это программное обеспечение опасно</string>
-    <string name="defense_virus_notification">Это программное обеспечение заражено</string>
-    <string name="defense_safe_notification">Это программное обеспечение является безопасным</string>
-    <string name="scan_interrupt">Остановка сканирования</string>
-    <string name="scan_interrupt_notifiction1">Сканирование осатновлено</string>
-    <string name="scan_interrupt_notifiction2">Произвести сканирование повторно</string>
-    <string name="already_clear">Зараженный файл очищен</string>
-    <string name="scan_state_start">Сканирование...</string>
-    <string name="scan_state_cloud">Сканирование в облаке...</string>
-    <string name="scan_state_end">Конец сканирования</string>
-    <string name="scan_schedule_notice">Уведомление сканирования</string>
-    <string name="scan_schedule_notice_summary">Пожалуйста, нажмите для сканирования</string>
-    <string name="delete_notice">Подтвердите, чтобы удалить этот файл?</string>
-    <string name="cloud_scan_error">Ошибка сканирования в облаке!</string>
-    <string name="scan_init">Инициализация…</string>
-    <string name="scan_pause_init">Приостановление сканирования…</string>
-    <string name="update_title">Обновление базы вирусов</string>
-    <string name="update_auto">Автообновление</string>
-    <string name="update_toast">Проверка обновления, пожалуйста, подождите...</string>
-    <string name="update_wait">Идет обновление данных, пожалуйста, подождите...</string>
-    <string name="network_error">Сетевая ошибка, код ошибки:</string>
-    <string name="connect_error">Истекло время ожидания подключения</string>
-    <string name="update_tone">Внимание</string>
-    <string name="update_note_version">Базы данных вирусов %s уже устарели!</string>
-    <string name="update_notice">Пожалуйста, обновите до последней версии:</string>
-    <string name="update_note_size">Размер обновления: %s</string>
-    <string name="update_note_already_latest">Последняя версия. Обновления не требуется!</string>
-    <string name="update_note_known">Есть</string>
-    <string name="update_tips">Помните, регулярно обновляйте антивирусные базы.</string>
-    <string name="unupdate_tips">Вы давно не обновляли антивирусную базу!</string>
-    <string name="update_version">Версия: %s</string>
-    <string name="log_list_empty">Нет журнала антивируса</string>
-    <string name="log_virus_counts">Заражено: %s</string>
-    <string name="log_caution_counts">Угроз: %s</string>
+    <string name="gap_notice">Просканувати% з назад</string>
+    <string name="gap_error_notice">Минуле сканування: %s</string>
+    <string name="scan_just_now">Просканувати тільки що</string>
+    <string name="defense_monitor_open">Монітор запущений</string>
+    <string name="defense_monitor_close1">Монітор запущений частково</string>
+    <string name="defense_monitor_close2">Неповна захист</string>
+    <string name="scan_counts">Перевірено:</string>
+    <string name="scan_time">Час:</string>
+    <string name="viruse_counts">Заражене:</string>
+    <string name="caution_counts">Підозрілих:</string>
+    <string name="scan_continue">Продовжувати сканування</string>
+    <string name="scan_cancel">Скасування сканування</string>
+    <string name="scan_pause">Призупинити сканування</string>
+    <string name="scan_pause_log">Сканування вже призупинено</string>
+    <string name="scan_finish">Завершити</string>
+    <string name="clear_now">Очистити зараз</string>
+    <string name="scan_warm_tips">Підказка</string>
+    <string name="scan_dialog_content">Сканування не завершено, ви впевнені, що хочете зупинити перевірку?</string>
+    <string name="scan_of_clound">Сканування в хмарі</string>
+    <string name="scan_state_safe">Сканування завершено, ваш телефон у безпеці</string>
+    <string name="scan_state_risk">Він знаходиться в небезпеці, будь ласка запустіть сканування зараз.</string>
+    <string name="scan_state_cloud_fail">Сканування було завершено, перевірка в хмарі</string>
+    <string name="scan_result_Congratulate">Поздоровлення</string>
+    <string name="scan_result_tips">Безкоштовний антивірус стежить за вашим телефоном.</string>
+    <string name="scan_result_suggestion">Порада: Видалити</string>
+    <string name="scan_result_suggestion_del">Порада: Del</string>
+    <string name="scan_virus_soft">Заражений</string>
+    <string name="scan_caution_soft">Програмне забезпечення під загрозою</string>
+    <string name="defense_notification">Нагадувати про захист від вірусів</string>
+    <string name="defense_risk_notification">Це програмне забезпечення небезпечно</string>
+    <string name="defense_virus_notification">Це програмне забезпечення заражене</string>
+    <string name="defense_safe_notification">Це програмне забезпечення є безпечним</string>
+    <string name="scan_interrupt">Зупинка сканування</string>
+    <string name="scan_interrupt_notifiction1">Сканування осатновлено</string>
+    <string name="scan_interrupt_notifiction2">Провести сканування повторно</string>
+    <string name="already_clear">Заражений файл очищений
+</string>
+    <string name="scan_state_start">Сканування...
+</string>
+    <string name="scan_state_cloud">Сканування в хмарі...
+</string>
+    <string name="scan_state_end">Кінець сканування
+</string>
+    <string name="scan_schedule_notice">Повідомлення сканування
+</string>
+    <string name="scan_schedule_notice_summary">Будь ласка, натисніть для сканування
+</string>
+    <string name="delete_notice">Підтвердіть, щоб видалити цей файл?
+</string>
+    <string name="cloud_scan_error">Помилка сканування в хмарі!
+</string>
+    <string name="scan_init">Ініціалізація...
+</string>
+    <string name="scan_pause_init">Призупинення сканування...</string>
+    <string name="update_title">Оновлення бази вірусів</string>
+    <string name="update_auto">Автооновлення</string>
+    <string name="update_toast">Перевірка поновлення, будь ласка, почекайте...</string>
+    <string name="update_wait">Йде оновлення даних, будь ласка, почекайте...</string>
+    <string name="network_error">Мережева помилка, код помилки:</string>
+    <string name="connect_error">Закінчився час очікування підключення</string>
+    <string name="update_tone">Увага</string>
+    <string name="update_note_version">Бази даних вірусів %s вже застаріли!</string>
+    <string name="update_notice">Будь ласка, поновіть до останньої версії:</string>
+    <string name="update_note_size">Розмір поновлення: %s</string>
+    <string name="update_note_already_latest">Остання версія. Оновлення не потрібно!</string>
+    <string name="update_note_known">Є</string>
+    <string name="update_tips">Пам\'ятайте, регулярно оновлюйте антивірусні бази.</string>
+    <string name="unupdate_tips">Ви давно не оновлювали антивірусну базу!</string>
+    <string name="update_version">Версія: %s</string>
+    <string name="log_list_empty">Немає журналу антивіруса</string>
+    <string name="log_virus_counts">Заражене: %s</string>
+    <string name="log_caution_counts">Загроз: %s</string>
     <string name="log_clear_counts">Очищено: %s</string>
-    <string name="log_unhandle_counts">Не вылечно: %s</string>
-    <string name="log_clear_all">Удалить</string>
-    <string name="log_if_clear_all">Удалить %s журнал антивируса?</string>
-    <string name="setting">Настройки</string>
-    <string name="setting_install_monitor">Параметры монитора</string>
-    <string name="setting_unknown_costs">Монитор платежей</string>
-    <string name="setting_unknown_costs_summary">Монитор в реальном времени блокирует вредоностную кнопку оплаты</string>
-    <string name="setting_defense">Параметры сканирования</string>
-    <string name="setting_scan_of_clound">Проверка в облаке</string>
-    <string name="setting_cloud_kill_summary">Сканирование в облаке дает более точные результаты</string>
-    <string name="setting_timer_scan_summary">Регулярное сканирование защитит мобильный телефон</string>
-    <string name="setting_time">Время</string>
-    <string name="setting_defense_schedule">Расписание сканирования</string>
-    <string name="setting_everyday">каждый день</string>
-    <string name="setting_everyweek">каждую неделю</string>
-    <string name="setting_defense_schedule_date">Дата сканирования</string>
-    <string name="setting_update">Параметры обновления</string>
-    <string name="setting_auto_update">Автоматическое обновление</string>
-    <string name="setting_data_update">Обновление антивирусных баз</string>
-    <string name="setting_auto_update_summary">Регулярное обновление антивирусных баз помогает обнаруживать новые вирусы</string>
-    <string name="setting_install_monitor_summary">Сканирование программного обеспечения в реальном времени предотвращает заражение</string>
-    <string name="last_one_notice">Пожалуйста, выберите по крайней мере один день</string>
-    <string name="minute">минута</string>
+    <string name="log_unhandle_counts">Чи не вилечно: %s</string>
+    <string name="log_clear_all">Видалити</string>
+    <string name="log_if_clear_all">Видалити %s журнал антивіруса?</string>
+    <string name="menu_actionbar_selected_items">Вибрали %s</string>
+    <string name="setting">Налаштування</string>
+    <string name="setting_install_monitor">Параметри монітора</string>
+    <string name="setting_unknown_costs">Монітор платежів</string>
+    <string name="setting_unknown_costs_summary">Монітор в реальному часі блокує вредоностную кнопку оплати</string>
+    <string name="setting_defense">Параметри сканування</string>
+    <string name="setting_scan_of_clound">Перевірка в хмарі</string>
+    <string name="setting_cloud_kill_summary">Сканування в хмарі дає більш точні результати</string>
+    <string name="setting_timer_scan_summary">Регулярне сканування захистить мобільний телефон</string>
+    <string name="setting_time">Час</string>
+    <string name="setting_defense_schedule">Розклад сканування</string>
+    <string name="setting_everyday">кожен день</string>
+    <string name="setting_everyweek">щотижня</string>
+    <string name="setting_defense_schedule_date">Дата сканування</string>
+    <string name="setting_update">Параметри оновлення</string>
+    <string name="setting_auto_update">Автоматичне оновлення</string>
+    <string name="setting_data_update">Оновлення антивірусних баз</string>
+    <string name="setting_auto_update_summary">Регулярне оновлення антивірусних баз допомагає виявляти нові віруси</string>
+    <string name="setting_install_monitor_summary">Сканування програмного забезпечення в реальному часі запобігає зараженню</string>
+    <string name="last_one_notice">Будь ласка, виберіть принаймні один день</string>
+    <string name="minute">хвилина</string>
     <string name="second">секунд</string>
-    <string name="monday">Понедельник</string>
-    <string name="tuesday">Вторник</string>
-    <string name="wednesday">Среда</string>
-    <string name="thursday">Четверг</string>
-    <string name="friday">Пятница</string>
-    <string name="saturday">Суббота</string>
-    <string name="sunday">Воскресенье</string>
-    <string name="sure">Подтвердите</string>
-    <string name="cancel">Отмена</string>
-    <string name="every_day">Каждый день</string>
-    <string name="never">Никогда</string>
+    <string name="monday">Понеділок</string>
+    <string name="tuesday">Вівторок</string>
+    <string name="wednesday">Середа</string>
+    <string name="thursday">Четвер</string>
+    <string name="friday">П\'ятниця</string>
+    <string name="saturday">Субота</string>
+    <string name="sunday">Неділя</string>
+    <string name="sure">Підтвердіть</string>
+    <string name="cancel">Скасування</string>
+    <string name="every_day">Кожен день</string>
+    <string name="never">Ніколи</string>
     <string name="day_concat">", "</string>
-    <string name="days"> дня(-ней)</string>
-    <string name="hours"> часов</string>
-    <string name="minutes"> минут(ы)</string>
+    <string name="days">дні (-ів)</string>
+    <string name="hours">годин</string>
+    <string name="minutes">хвилин (и)</string>
+    <item type="string" name="APKTOOL_DUMMY_007d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_007e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_007f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0080">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0081">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0082">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0083">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0084">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0085">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0086">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0087">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0088">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0089">false</item>
+    <item type="string" name="APKTOOL_DUMMY_008a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_008b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_008c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_008d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_008e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_008f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0090">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0091">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0092">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0093">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0094">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0095">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0096">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0097">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0098">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0099">false</item>
+    <item type="string" name="APKTOOL_DUMMY_009a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_009b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_009c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_009d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_009e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_009f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00a0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00a1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00a3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00a4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00a5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00a6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00a7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00a8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00a9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00aa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ab">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ac">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ad">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ae">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00af">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00b0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00b1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00b2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00b3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00b4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00b5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00b7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00b8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00b9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ba">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00bb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00bc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00bd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00be">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00bf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00c0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00c1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00c2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00c3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00c4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00c5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00c6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00c7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00c8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00c9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ca">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00cb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00cd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ce">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00cf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00da">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00db">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00dc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00dd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00de">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00df">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00eb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ec">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ed">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ee">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ef">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fe">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ff">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0100">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0101">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0102">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0103">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0104">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0105">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0106">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0107">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0108">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0109">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010f">false</item>
 </resources>

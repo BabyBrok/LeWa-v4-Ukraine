@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Обрані контакти</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Припинити</string>
+    <string name="delete_dialog_title">Видалення обраного контакту</string>
+    <string name="delete_dialog_prompt">"%1$s видалити з обраних контактів?"</string>
+    <string name="transcoding_prompt">Обробка відео</string>
+    <string name="toast_video_add_cancelled">Додати відео на провал</string>
+    <string name="toast_video_unsupported_resolution">Роздільна здатність відео занадто висока, не може бути доданим</string>
+    <string name="toast_low_storage">Карту SD заповнено</string>
+    <string name="toast_invalid_video">Не підтримує цей формат відео</string>
+</resources>

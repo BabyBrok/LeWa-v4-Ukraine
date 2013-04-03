@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_vis1">Інструменти візуалізації</string>
+    <string name="wallpaper_vis2">форма хвилі</string>
+    <string name="wallpaper_vis3">спектр</string>
+    <string name="wallpaper_vis4">VU Meter</string>
+    <string name="wallpaper_vis5">веселощі</string>
+    <string name="wallpapers">Шпалери музика візуалізації</string>
+    <string name="author">Google</string>
+    <string name="vis2_desc">Намалюйте даний час грає будь-який трек акустичної.</string>
+    <string name="vis3_desc">Показати відтворюється в даний момент будь-який трек спектру.</string>
+    <string name="vis4_desc">Наслідувати Зондування аналогового індикатора.</string>
+    <string name="vis5_desc">Об\'єднує в собі всі музичні візуалізації за допомогою тривимірного ефекту повільно обертається.</string>
+</resources>
