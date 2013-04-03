@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="syslogger_log_path">Шлях зберігання журналу:</string>
+    <string name="taglog_dlg_title_stop">Підтвердіть зупинку</string>
+    <string name="taglog_dlg_msg_stop">OK зупинитися, щоб продовжити запис журналу?</string>
+    <string name="taglog_dlg_title_delete">Видалити тег журнал</string>
+    <string name="taglog_dlg_msg_delete">OK, щоб видалити всі теги увійти так?</string>
+    <string name="taglog_dlg_title_wait">Утрим</string>
+    <string name="taglog_dlg_msg_wait">Будь ласка, зачекайте</string>
+    <string name="taglog">Tag Log</string>
+    <string name="taglog_title">[Tag Log]</string>
+    <string name="taglog_title_warning">[Tag Log] УВАГА!</string>
+    <string name="taglog_msg_input">Тег Вхід буде стискати файл журналу на карту пам\'яті, щоб запобігти файл журналу відновлення, введіть ідентифікатор файлу:</string>
+    <string name="taglog_msg_logtool_stopped">Всі інструменти обходу увійти ні відкритих, чи слід відкрити журнал інструмент?</string>
+    <string name="taglog_msg_no_space">Об\'єм карти пам\'яті!</string>
+    <string name="taglog_msg_zip_log_fail">Стисле журналу не вдалося!</string>
+    <string name="taglog_msg_no_sdcard">Немає карти пам\'яті!</string>
+    <string name="taglog_msg_sdcard_not_writtable">Карта пам\'яті не може бути записана!</string>
+    <string name="taglog_msg_compress_log">Фон стислих файлів журналу...</string>
+    <string name="taglog_busy">[Tag Log] при стисненні журналу, Tag Вхід не можуть впоратися інші винятки!</string>
+    <string name="taglog_compress_done">[Tag Log] Журнал стисненого завершений!</string>
+    <string name="taglog_exit">[Tag Log] вихід!</string>
+</resources>

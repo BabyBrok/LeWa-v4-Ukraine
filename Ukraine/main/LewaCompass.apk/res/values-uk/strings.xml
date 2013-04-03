@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Компас</string>
+    <string name="north">на північ</string>
+    <string name="northeast">на північний схід</string>
+    <string name="east">на схід</string>
+    <string name="southeast">на південний схід</string>
+    <string name="south">на південь</string>
+    <string name="southwest">на південний захід</string>
+    <string name="west">на захід</string>
+    <string name="northwest">на північний захід</string>
+    <string name="accuracy_prompt">Поблизу магнітних перешкод, навколо струшування телефону калібрування компаса</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shutdown_reboot_options">
+        <item>Режим перезавантаження</item>
+        <item>Режим пензлик</item>
+    </string-array>
+    <string-array name="chineseMonthNames">
+        <item>позитивний</item>
+        <item>два</item>
+        <item>три</item>
+        <item>чотири</item>
+        <item>п\'ять</item>
+        <item>шість</item>
+        <item>сім</item>
+        <item>вісім</item>
+        <item>дев\'ять</item>
+        <item>десять</item>
+        <item>одинадцять</item>
+        <item>дванадцять</item>
+    </string-array>
+    <string-array name="chineseDateNames">
+        <item>перший день</item>
+        <item>друний день</item>
+        <item>третій день</item>
+        <item>четвертий день</item>
+        <item>п\'ятий день</item>
+        <item>шостий день</item>
+        <item>сьомий день</item>
+        <item>восьмий день</item>
+        <item>дев\'ятий день</item>
+        <item>десятий день</item>
+        <item>одинадцять</item>
+        <item>дванадцять</item>
+        <item>тринадцять</item>
+        <item>чотирнадцять</item>
+        <item>п\'ятнадцять</item>
+        <item>шістнадцять</item>
+        <item>сімнадцять</item>
+        <item>вісімнадцять</item>
+        <item>дев\'ятнадцять</item>
+        <item>двадцять</item>
+        <item>двадцять один</item>
+        <item>двадцять два</item>
+        <item>двадцять три</item>
+        <item>двадцять чотири</item>
+        <item>двадцять п\'ять</item>
+        <item>двадцять шість</item>
+        <item>двадцять сім</item>
+        <item>двадцять вісім</item>
+        <item>двадцять дев\'ять</item>
+        <item>тридцять</item>
+    </string-array>
+</resources>

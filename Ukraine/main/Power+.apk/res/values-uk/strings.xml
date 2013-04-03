@@ -9,7 +9,7 @@
     <string name="dev_gps">GPS</string>
     <string name="dev_haptic">Вібруванням</string>
     <string name="dev_call_msg">Зв\'язок</string>
-    <string name="dev_wifi">Вкл. / Вимк. Wi-Fi</string>
+    <string name="dev_wifi">Вкл./Вимк. Wi-Fi</string>
     <string name="dev_data">Передача даних</string>
     <string name="dev_airplane">Режим польоту</string>
     <string name="dev_back_lights">Підсвічування</string>
@@ -59,9 +59,6 @@
     <string name="low_power_greater_mode">більше, ніж %s</string>
     <string name="low_power__mode_dialog_hint">Вкл. режим пониж. енергопотр. при низькому рівні заряду батареї %s</string>
     <string name="low_power_mode_choice_sync">використано %s в цьому режимі</string>
-    <string name="regular_mode">Основний</string>
-    <string name="long_standby">Режим Довгі</string>
-    <string name="sleep_alarm">Режим сигналізації</string>
     <string name="regular_mode_explain">GSM, SMS і перед. даних</string>
     <string name="sleep_alarm_explain">Вимкнути. GSM, SMS предачі. даних</string>
     <string name="spm_app_running">Вик.</string>
@@ -76,7 +73,7 @@
     <string name="sp_btn_ok">ОК</string>
     <string name="sp_btn_enter">Включити</string>
     <string name="sp_btn_unenter">Не включати</string>
-    <string name="sp_btn_setting" />
+    <string name="sp_btn_setting">Налаштування</string>
     <string name="sp_btn_no">Скасувати</string>
     <string name="spm_btn_amend">Змінити</string>
     <string name="spm_btn_save">Зберегти</string>
@@ -119,7 +116,7 @@
     <string name="spm_custom_settings_intelli_batterylow_summy">Встановіть поріг рівня заряду. Поточний поріг</string>
     <string name="spm_battery_low_warnnig_title">Батарея розряджена!</string>
     <string name="spm_battery_low_warnnig_msg">Увага! Рівень заряду менше</string>
-    <string name="spm_battery_low_warnnig_msg_1">.Відкрити додаток енергозбереження?</string>
+    <string name="spm_battery_low_warnnig_msg_1">, відкрити додаток енергозбереження?</string>
     <string name="spm_battery_low_warnnig_to_connect">Заряд акумулятора нижче ніж</string>
     <string name="spm_battery_low_warnnig_to_connect_1">!</string>
     <string name="spm_inti_statusbar_in">Режим економії енергії включений</string>
@@ -127,4 +124,5 @@
     <string name="spm_inti_statusbar_time">Період</string>
     <string name="spm_inti_statusbar_entry">Увійти знову</string>
     <string name="spm_inti_statusbar_exit">Тимчасово вийти</string>
+    <string name="spm_trickle_charge_title">Крапельна зарядка</string>
 </resources>

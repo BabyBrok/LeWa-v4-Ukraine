@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калібрування витрат</string>
+    <string name="app_summary">Моніторинг трафіку х функція калібрування LeWa технології.</string>
+    <string name="app_title">Калібрування в цьому місяці з потоком</string>
+    <string name="request_failed">Оператори не змогли отримати дані Калібрування потоку не вдалося</string>
+    <string name="request_sms">Поєднання трафіку SMS запиту конфігурації</string>
+    <string name="send_sms">Поєднання для операторів запиту, будь ласка, почекайте ...</string>
+    <string name="analyze_sms">Поєднання звітів по використанню трафіку</string>
+    <string name="correct_failed">Нездатність вирішити носія даних калібрування витрат не вдалося</string>
+    <string name="correct_success">Мати доступ до носія даних, успішно Калібрування витрат</string>
+    <string name="alert_slot_error">Невірний слот для карти</string>
+    <string name="alert_network_error">Будь ласка, підключіться до мережі</string>
+    <string name="phone_closed">Будь ласка, відкрийте функції телефону</string>
+    <string name="label_province">Провінція</string>
+    <string name="label_city">Місто</string>
+    <string name="label_carrier">Оператори</string>
+    <string name="label_brand">Тип карти</string>
+    <string name="label_info">Будь ласка, ознайомтеся з потоком інформацію про калібрування</string>
+    <string name="label_data_left">Доступний</string>
+    <string name="label_data_used">Використаний</string>
+    <string name="label_partner">Tencent мобільних дворецького надавати технічну підтримку</string>
+</resources>

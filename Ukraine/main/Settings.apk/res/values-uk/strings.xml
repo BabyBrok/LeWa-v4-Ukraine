@@ -744,7 +744,7 @@
     <string name="bluetooth_pairing_accept">Сполучення</string>
     <string name="bluetooth_pairing_decline">Скасування</string>
     <string name="bluetooth_error_title" />
-    <string name="bluetooth_pairing_error_message">\"%1$s\" не може бути парними.</string>
+    <string name="bluetooth_pairing_error_message">\"%1$s\" не можуть бути поєднані.</string>
     <string name="bluetooth_pairing_pin_error_message">Не вдалося підключитися до пристрою \" %1$s\", так як введений невірний PIN-код або пароль</string>
     <string name="bluetooth_pairing_device_down_error_message">Не вдається встановити з\'єднання з пристроєм \" %1$s\"</string>
     <string name="bluetooth_pairing_rejected_error_message">Сполучення відхилено %1$s</string>
@@ -932,7 +932,7 @@
     <string name="sound_settings">Звук</string>
     <string name="ringtone_title">Рінгтон</string>
     <string name="ringtone_summary" />
-    <string name="all_volume_title">Обсяг</string>
+    <string name="all_volume_title">Гучність</string>
     <string name="musicfx_title">Музичні ефекти</string>
     <string name="ring_volume_title">Гучність дзвінка</string>
     <string name="vibrate_in_silent_title">Вібро в тихому режимі</string>
@@ -1327,7 +1327,8 @@
     <string name="dlg_ok">Гаразд</string>
     <string name="dlg_cancel">Скасування</string>
     <string name="app_not_found_dlg_title" />
-    <string name="app_not_found_dlg_text">Додатка не знайдено в списку встановлених.</string>
+    <string name="app_not_found_dlg_text">Додаток не знайдено в списку встановлених.
+</string>
     <string name="clear_data_failed">Дані не видалені</string>
     <string name="app_factory_reset_dlg_title">Видалити поновлення</string>
     <string name="app_factory_reset_dlg_text">Всі оновлення для даного застосування системи Android будуть видалені</string>
@@ -1398,7 +1399,7 @@
     <string name="keyboard_settings_category">Клавіатура та методи вводу</string>
     <string name="phone_language">Мова</string>
     <string name="phone_language_summary" />
-    <string name="auto_replace">Автоматично замінити</string>
+    <string name="auto_replace">автоматично замінити</string>
     <string name="auto_replace_summary">Виправлення неправильно набраних слів</string>
     <string name="auto_caps">Автомат. заголовні букви</string>
     <string name="auto_caps_summary">Заміна першої літери в реченні на заголовну</string>
@@ -1407,7 +1408,7 @@
     <string name="auto_punctuate_summary">Подвійне натискання пробілу для вставки \".\"</string>
     <string name="show_password">Показати пароль</string>
     <string name="show_password_summary" />
-    <string name="ime_security_warning">Цей метод введення може збирати всесь введений текст, включаючи паролі і номери кредитних карт і інші особисті дані. Він поставляється з додатком \"%1$s\". Використовувати цей метод введення?</string>
+    <string name="ime_security_warning">Цей метод введення може бути, щоб зібрати всі введеного тексту, включаючи паролі і номери кредитних карт і інші особисті дані. Він поставляється з додатком “%1$s”. Щоб використовувати цей метод введення?</string>
     <string name="spellchecker_security_warning">Ця перевірка орфографії дозволяє збирати весь текст, що вводиться, включаючи особисті дані, такі як паролі і номери кредитних карт. Ініційована додатком %1$s. Використовувати цю перевірку орфографії</string>
     <string name="spellchecker_quick_settings">ВСТАНОВИТИ</string>
     <string name="spellchecker_language">Мова</string>
@@ -1660,7 +1661,7 @@
     <string name="credentials_install_gesture_prompt">Намалюйте фігуру для розблокування</string>
     <string name="credentials_install_gesture_explanation">Щоб підтвердити установку облікових даних, накресліть графічний ключ</string>
     <string name="credentials_unlock" />
-    <string name="credentials_unlock_hint">Введіть пароль для облікових даних що зберігаються.</string>
+    <string name="credentials_unlock_hint">Введіть пароль облікові дані зберігаються.</string>
     <string name="credentials_old_password">Діючий пароль:</string>
     <string name="credentials_reset_hint">Видалити вміст</string>
     <string name="credentials_password_too_short">У паролі повинно бути не менше 8 символів</string>
@@ -1690,7 +1691,7 @@
     <string name="local_backup_password_toast_confirmation_mismatch">Паролі не збігаються</string>
     <string name="local_backup_password_toast_validation_failure">Не вдалося встановити резервний пароль</string>
     <string name="backup_erase_dialog_title" />
-    <string name="backup_erase_dialog_message">Зупинити резервне копіювання ваших WLAN паролів, закладок інших налаштування та дані додатків, а також видалити всі копії з серверів Google?</string>
+    <string name="backup_erase_dialog_message">Щоб зупинити резервну копію вашого WLAN паролів, закладки та інші налаштування та дані додатків, а також видалити всі копії з серверів Google?</string>
     <string name="device_admin_settings_title">Параметри адміністратора пристрою</string>
     <string name="active_device_admin_msg">Адміністратори пристрої</string>
     <string name="remove_device_admin">Деактивувати</string>
@@ -1761,7 +1762,7 @@
     <string name="sync_gmail">Гугл пошта</string>
     <string name="sync_calendar">Календар</string>
     <string name="sync_contacts">Контакти</string>
-    <string name="sync_plug"><font fgcolor="#ffffffff"><font fgcolor="#ffffffff"><font fgcolor="#ffffffff">\"\" <font Fgcolor="#ffffffff"> Ласкаво просимо в Google Sync! </ FONT&gt; \"
+    <string name="sync_plug"><font fgcolor="#ffffffff"><font fgcolor="#ffffffff"><font fgcolor="#ffffffff"><font fgcolor="#ffffffff">\"\" <font Fgcolor="#ffffffff"> Ласкаво просимо в Google Sync! </ FONT&gt; \"
 Служба Google для синхронізації даних дозволяє отримувати доступ до своїх контактів, зустрічей і т.п. з будь-якого місця.\" </string>
     <string name="header_application_sync_settings">Параметри синхронізації додатки</string>
     <string name="header_data_and_synchronization">Дані та синхронізація</string>
@@ -1891,9 +1892,9 @@
 Щоб уникнути додаткових витрат намагайтеся не досягати цього ліміту, так як оператор і ваш пристрій можуть по-різному враховувати трафік \".</string>
     <string name="data_usage_restrict_background_title">Обмежити фоновий трафік</string>
     <string name="data_usage_restrict_background">Якщо обмежити передачу даних у фоновому режимі по мобільній мережі, деякі програми та служби не будуть працювати без підключення до мережі Wi-Fi</string>
-    <string name="data_usage_sweep_warning"><font size="21"><font size="21"><font size="21"><font size="21"> ^ 1 </ FONT&gt; <font size="9"> ^ 2 </ FONT&gt; \"
+    <string name="data_usage_sweep_warning"><font size="21"><font size="21"><font size="21"><font size="21"><font size="21"> ^ 1 </ FONT&gt; <font size="9"> ^ 2 </ FONT&gt; \"
 \"<font Size="12"> Увага </ FONT&gt;</string>
-    <string name="data_usage_sweep_limit"><font size="21"><font size="21"><font size="21"><font size="21"> ^ 1 </ FONT&gt; <font size="9"> ^ 2 </ FONT&gt; \"
+    <string name="data_usage_sweep_limit"><font size="21"><font size="21"><font size="21"><font size="21"><font size="21"> ^ 1 </ FONT&gt; <font size="9"> ^ 2 </ FONT&gt; \"
 \"<font Size="12"> Ліміт </ FONT&gt;</string>
     <string name="data_usage_uninstalled_apps">Віддалені програми</string>
     <string name="data_usage_received_sent">Отримано: %1$s; відправлено: %2$s</string>
