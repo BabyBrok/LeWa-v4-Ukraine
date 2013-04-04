@@ -43,6 +43,7 @@
     <timezone id="Europe/Helsinki">Киев</timezone>
     <timezone id="Asia/Jerusalem">Иерусалим</timezone>
     <timezone id="Europe/Minsk">Минск</timezone>
+    <timezone id="Europe/Kiev">Київ</timezone>
     <timezone id="Africa/Harare">Хараре</timezone>
     <timezone id="Asia/Baghdad">Багдад</timezone>
     <timezone id="Europe/Moscow">Москва</timezone>
